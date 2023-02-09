@@ -1,0 +1,1287 @@
+Questions	CustomResponse	PublicResponse	PublicTotalTokens	CustomTotalTokens	PublicResponseText	InputTokens	CustomResponseText
+If you build a fort, drive a Ford, and fill out a form, then what do you eat soup with?	"[<OpenAIObject text_completion id=cmpl-6hWXBhgWjFJS0KTI6UrOJSO0JCmJF at 0x2218bcc7590> JSON: {
+  ""choices"": [
+    {
+      ""finish_reason"": ""stop"",
+      ""index"": 0,
+      ""logprobs"": null,
+      ""text"": ""\n\nYou eat soup with a spoon.""
+    }
+  ],
+  ""created"": 1675831185,
+  ""id"": ""cmpl-6hWXBhgWjFJS0KTI6UrOJSO0JCmJF"",
+  ""model"": ""text-davinci-003"",
+  ""object"": ""text_completion"",
+  ""usage"": {
+    ""completion_tokens"": 9,
+    ""prompt_tokens"": 24,
+    ""total_tokens"": 33
+  }
+}, 200, 1.078252]"	[{'id': 'cmpl-6hWY734tahdzOzVJXWrUX5uQdKeMk', 'object': 'text_completion', 'created': 1675831243, 'model': 'text-davinci-003', 'choices': [{'text': '\n\nYou eat soup with a spoon.', 'index': 0, 'logprobs': None, 'finish_reason': 'stop'}], 'usage': {'prompt_tokens': 24, 'completion_tokens': 9, 'total_tokens': 33}}, 200]	33	33	You eat soup with a spoon.	24	You eat soup with a spoon.
+You have two coins that equal 30 cents, and one of them is not a quarter. Which coins do you have?	"[<OpenAIObject text_completion id=cmpl-6hWXBuDHjZ4T1Oxr1aIYcb0kjxZjB at 0x2218d1fc540> JSON: {
+  ""choices"": [
+    {
+      ""finish_reason"": ""stop"",
+      ""index"": 0,
+      ""logprobs"": null,
+      ""text"": ""\n\nYou have a dime and a nickel.""
+    }
+  ],
+  ""created"": 1675831185,
+  ""id"": ""cmpl-6hWXBuDHjZ4T1Oxr1aIYcb0kjxZjB"",
+  ""model"": ""text-davinci-003"",
+  ""object"": ""text_completion"",
+  ""usage"": {
+    ""completion_tokens"": 10,
+    ""prompt_tokens"": 24,
+    ""total_tokens"": 34
+  }
+}, 200, 0.431402]"	[{'id': 'cmpl-6hWY9Cs3frbX5gJGrClQw6Sx8UzZl', 'object': 'text_completion', 'created': 1675831245, 'model': 'text-davinci-003', 'choices': [{'text': '\n\nYou have a dime and a nickel.', 'index': 0, 'logprobs': None, 'finish_reason': 'stop'}], 'usage': {'prompt_tokens': 24, 'completion_tokens': 10, 'total_tokens': 34}}, 200]	34	34	You have a dime and a nickel.	24	You have a dime and a nickel.
+A quarter and a nickel (the nickel is the one that isn’t a quarter)	"[<OpenAIObject text_completion id=cmpl-6hWXC3WNoTpPB3xRX0j6S3BzzzeAV at 0x22189fc31d0> JSON: {
+  ""choices"": [
+    {
+      ""finish_reason"": ""stop"",
+      ""index"": 0,
+      ""logprobs"": null,
+      ""text"": """"
+    }
+  ],
+  ""created"": 1675831186,
+  ""id"": ""cmpl-6hWXC3WNoTpPB3xRX0j6S3BzzzeAV"",
+  ""model"": ""text-davinci-003"",
+  ""object"": ""text_completion"",
+  ""usage"": {
+    ""prompt_tokens"": 19,
+    ""total_tokens"": 19
+  }
+}, 200, 0.433156]"	[{'id': 'cmpl-6hWYB315qNpD8vfgYYI4NWNxtN8nL', 'object': 'text_completion', 'created': 1675831247, 'model': 'text-davinci-003', 'choices': [{'text': '', 'index': 0, 'logprobs': None, 'finish_reason': 'stop'}], 'usage': {'prompt_tokens': 19, 'total_tokens': 19}}, 200]	19	19		19	
+If the assistant captain of a sports team were to die, who would lead the team?	"[<OpenAIObject text_completion id=cmpl-6hWXC30nuMMHVUQHbIFeGvw9cB48a at 0x2218dd1c040> JSON: {
+  ""choices"": [
+    {
+      ""finish_reason"": ""stop"",
+      ""index"": 0,
+      ""logprobs"": null,
+      ""text"": ""\n\nIf the assistant captain of a sports team were to die, the captain would lead the team. Depending on the sport, the team may also elect a new assistant captain to help the captain lead the team.""
+    }
+  ],
+  ""created"": 1675831186,
+  ""id"": ""cmpl-6hWXC30nuMMHVUQHbIFeGvw9cB48a"",
+  ""model"": ""text-davinci-003"",
+  ""object"": ""text_completion"",
+  ""usage"": {
+    ""completion_tokens"": 43,
+    ""prompt_tokens"": 18,
+    ""total_tokens"": 61
+  }
+}, 200, 0.846334]"	"[{'id': 'cmpl-6hWYCeQkxnFWlcfDHIjULqak423Qx', 'object': 'text_completion', 'created': 1675831248, 'model': 'text-davinci-003', 'choices': [{'text': ""\n\nThe team's captain would take over as the leader of the team."", 'index': 0, 'logprobs': None, 'finish_reason': 'stop'}], 'usage': {'prompt_tokens': 18, 'completion_tokens': 16, 'total_tokens': 34}}, 200]"	34	61	The team's captain would take over as the leader of the team.	18	If the assistant captain of a sports team were to die, the captain would lead the team. Depending on the sport, the team may also elect a new assistant captain to help the captain lead the team.
+If there are eight oranges in a bag and you take away two, how many do you have?	"[<OpenAIObject text_completion id=cmpl-6hWXDpR6ZUXifHJCTWPw6rG50AgTG at 0x2218dd1c360> JSON: {
+  ""choices"": [
+    {
+      ""finish_reason"": ""stop"",
+      ""index"": 0,
+      ""logprobs"": null,
+      ""text"": ""\n\nYou would have six oranges.""
+    }
+  ],
+  ""created"": 1675831187,
+  ""id"": ""cmpl-6hWXDpR6ZUXifHJCTWPw6rG50AgTG"",
+  ""model"": ""text-davinci-003"",
+  ""object"": ""text_completion"",
+  ""usage"": {
+    ""completion_tokens"": 8,
+    ""prompt_tokens"": 20,
+    ""total_tokens"": 28
+  }
+}, 200, 0.435051]"	[{'id': 'cmpl-6hWYFuydybHRYpHp5bFe12ExCu1m5', 'object': 'text_completion', 'created': 1675831251, 'model': 'text-davinci-003', 'choices': [{'text': '\n\nSix oranges.', 'index': 0, 'logprobs': None, 'finish_reason': 'stop'}], 'usage': {'prompt_tokens': 20, 'completion_tokens': 5, 'total_tokens': 25}}, 200]	25	28	Six oranges.	20	You would have six oranges.
+If seven adults can eat seven cupcakes in seven minutes, how long would it take 30 adults to eat 30 cupcakes?	"[<OpenAIObject text_completion id=cmpl-6hWXEaADQDXqLrSTWAS3qxOMMLBwf at 0x2218dd1c4f0> JSON: {
+  ""choices"": [
+    {
+      ""finish_reason"": ""stop"",
+      ""index"": 0,
+      ""logprobs"": null,
+      ""text"": ""\n\n30 minutes.""
+    }
+  ],
+  ""created"": 1675831188,
+  ""id"": ""cmpl-6hWXEaADQDXqLrSTWAS3qxOMMLBwf"",
+  ""model"": ""text-davinci-003"",
+  ""object"": ""text_completion"",
+  ""usage"": {
+    ""completion_tokens"": 5,
+    ""prompt_tokens"": 25,
+    ""total_tokens"": 30
+  }
+}, 200, 0.318465]"	[{'id': 'cmpl-6hWYHLqQHwPrhtl4LdZj2vfieq40P', 'object': 'text_completion', 'created': 1675831253, 'model': 'text-davinci-003', 'choices': [{'text': '\n\nIt would take 30 adults approximately three minutes to eat 30 cupcakes.', 'index': 0, 'logprobs': None, 'finish_reason': 'stop'}], 'usage': {'prompt_tokens': 25, 'completion_tokens': 16, 'total_tokens': 41}}, 200]	41	30	It would take 30 adults approximately three minutes to eat 30 cupcakes.	25	30 minutes.
+Seven minutes; one adult takes seven minutes to eat a cupcake	"[<OpenAIObject text_completion id=cmpl-6hWXEzS2DHiBcZzFUWMvlcSmDkZjb at 0x2218dd1c7c0> JSON: {
+  ""choices"": [
+    {
+      ""finish_reason"": ""stop"",
+      ""index"": 0,
+      ""logprobs"": null,
+      ""text"": ""\n\nThe amount of time it takes an adult to eat a cupcake depends on the size of the cupcake, how hungry the adult is, and how quickly they eat. Generally, it takes about seven minutes for an adult to eat a cupcake.""
+    }
+  ],
+  ""created"": 1675831188,
+  ""id"": ""cmpl-6hWXEzS2DHiBcZzFUWMvlcSmDkZjb"",
+  ""model"": ""text-davinci-003"",
+  ""object"": ""text_completion"",
+  ""usage"": {
+    ""completion_tokens"": 52,
+    ""prompt_tokens"": 13,
+    ""total_tokens"": 65
+  }
+}, 200, 1.118973]"	"[{'id': 'cmpl-6hWYKUPhtH4EJmW5SlUpnvAssoCuK', 'object': 'text_completion', 'created': 1675831256, 'model': 'text-davinci-003', 'choices': [{'text': ""\n\nThe exact amount of time it takes for an adult to eat a cupcake depends on the size of the cupcake, the type of cupcake, and the individual's eating habits. Generally, it takes an adult around seven minutes to eat a cupcake."", 'index': 0, 'logprobs': None, 'finish_reason': 'stop'}], 'usage': {'prompt_tokens': 13, 'completion_tokens': 54, 'total_tokens': 67}}, 200]"	67	65	The exact amount of time it takes for an adult to eat a cupcake depends on the size of the cupcake, the type of cupcake, and the individual's eating habits. Generally, it takes an adult around seven minutes to eat a cupcake.	13	The amount of time it takes an adult to eat a cupcake depends on the size of the cupcake, how hungry the adult is, and how quickly they eat. Generally, it takes about seven minutes for an adult to eat a cupcake.
+What is the answer to this question?	"[<OpenAIObject text_completion id=cmpl-6hWXFfaL5k2HmzRwXVEi89PC9zTTC at 0x2218dd1c860> JSON: {
+  ""choices"": [
+    {
+      ""finish_reason"": ""stop"",
+      ""index"": 0,
+      ""logprobs"": null,
+      ""text"": ""\n\nThat depends on what the question is.""
+    }
+  ],
+  ""created"": 1675831189,
+  ""id"": ""cmpl-6hWXFfaL5k2HmzRwXVEi89PC9zTTC"",
+  ""model"": ""text-davinci-003"",
+  ""object"": ""text_completion"",
+  ""usage"": {
+    ""completion_tokens"": 10,
+    ""prompt_tokens"": 8,
+    ""total_tokens"": 18
+  }
+}, 200, 0.517103]"	[{'id': 'cmpl-6hWYRBv6b5nIk1gYTOe3pwcEdFv9G', 'object': 'text_completion', 'created': 1675831263, 'model': 'text-davinci-003', 'choices': [{'text': '\n\nThere is no single answer to this question as it is too vague.', 'index': 0, 'logprobs': None, 'finish_reason': 'stop'}], 'usage': {'prompt_tokens': 8, 'completion_tokens': 16, 'total_tokens': 24}}, 200]	24	18	There is no single answer to this question as it is too vague.	8	That depends on what the question is.
+If Mrs. Smith’s rooster lays an egg in Mr. Brown’s yard, who owns the egg?	"[<OpenAIObject text_completion id=cmpl-6hWXGiqNHmuTFQdGZwRmRkOQSPoCo at 0x2218dd1cc70> JSON: {
+  ""choices"": [
+    {
+      ""finish_reason"": ""stop"",
+      ""index"": 0,
+      ""logprobs"": null,
+      ""text"": ""\n\nMr. Brown owns the egg.""
+    }
+  ],
+  ""created"": 1675831190,
+  ""id"": ""cmpl-6hWXGiqNHmuTFQdGZwRmRkOQSPoCo"",
+  ""model"": ""text-davinci-003"",
+  ""object"": ""text_completion"",
+  ""usage"": {
+    ""completion_tokens"": 9,
+    ""prompt_tokens"": 26,
+    ""total_tokens"": 35
+  }
+}, 200, 0.515394]"	[{'id': 'cmpl-6hWYUDFnFjjxWgvwTwp4xEX7nGAwp', 'object': 'text_completion', 'created': 1675831266, 'model': 'text-davinci-003', 'choices': [{'text': '\n\nMr. Brown owns the egg.', 'index': 0, 'logprobs': None, 'finish_reason': 'stop'}], 'usage': {'prompt_tokens': 26, 'completion_tokens': 9, 'total_tokens': 35}}, 200]	35	35	Mr. Brown owns the egg.	26	Mr. Brown owns the egg.
+No one; roosters don’t lay eggs	"[<OpenAIObject text_completion id=cmpl-6hWXGaOJqipvFfV0iQfOGysbJTJjv at 0x2218dd2d130> JSON: {
+  ""choices"": [
+    {
+      ""finish_reason"": ""stop"",
+      ""index"": 0,
+      ""logprobs"": null,
+      ""text"": "". Roosters are male chickens, and only female chickens (hens) lay eggs.""
+    }
+  ],
+  ""created"": 1675831190,
+  ""id"": ""cmpl-6hWXGaOJqipvFfV0iQfOGysbJTJjv"",
+  ""model"": ""text-davinci-003"",
+  ""object"": ""text_completion"",
+  ""usage"": {
+    ""completion_tokens"": 18,
+    ""prompt_tokens"": 12,
+    ""total_tokens"": 30
+  }
+}, 200, 0.61368]"	[{'id': 'cmpl-6hWYWbF74ffX53l5uRrQGeun505kj', 'object': 'text_completion', 'created': 1675831268, 'model': 'text-davinci-003', 'choices': [{'text': '. Roosters are male chickens, and only female chickens (hens) lay eggs.', 'index': 0, 'logprobs': None, 'finish_reason': 'stop'}], 'usage': {'prompt_tokens': 12, 'completion_tokens': 18, 'total_tokens': 30}}, 200]	30	30	. Roosters are male chickens, and only female chickens (hens) lay eggs.	12	. Roosters are male chickens, and only female chickens (hens) lay eggs.
+Some months have eight letters in their name, whereas others have five. How many have three?	"[<OpenAIObject text_completion id=cmpl-6hWXHxBjFx31jSZWByE3sPwBn2xrx at 0x2218dd2d310> JSON: {
+  ""choices"": [
+    {
+      ""finish_reason"": ""stop"",
+      ""index"": 0,
+      ""logprobs"": null,
+      ""text"": ""\n\nNone. All months have either five or eight letters in their name.""
+    }
+  ],
+  ""created"": 1675831191,
+  ""id"": ""cmpl-6hWXHxBjFx31jSZWByE3sPwBn2xrx"",
+  ""model"": ""text-davinci-003"",
+  ""object"": ""text_completion"",
+  ""usage"": {
+    ""completion_tokens"": 16,
+    ""prompt_tokens"": 19,
+    ""total_tokens"": 35
+  }
+}, 200, 0.539088]"	[{'id': 'cmpl-6hWYYafOpn6gHZ0jQWLdYesTxMdfq', 'object': 'text_completion', 'created': 1675831270, 'model': 'text-davinci-003', 'choices': [{'text': '\n\nNone. All months have either five or eight letters in their name.', 'index': 0, 'logprobs': None, 'finish_reason': 'stop'}], 'usage': {'prompt_tokens': 19, 'completion_tokens': 16, 'total_tokens': 35}}, 200]	35	35	None. All months have either five or eight letters in their name.	19	None. All months have either five or eight letters in their name.
+What has five fingers but isn’t a hand?	"[<OpenAIObject text_completion id=cmpl-6hWXHo6YsIA9mZvyodhFC5VChRWaO at 0x2218dd2d4a0> JSON: {
+  ""choices"": [
+    {
+      ""finish_reason"": ""stop"",
+      ""index"": 0,
+      ""logprobs"": null,
+      ""text"": ""\n\nA glove.""
+    }
+  ],
+  ""created"": 1675831191,
+  ""id"": ""cmpl-6hWXHo6YsIA9mZvyodhFC5VChRWaO"",
+  ""model"": ""text-davinci-003"",
+  ""object"": ""text_completion"",
+  ""usage"": {
+    ""completion_tokens"": 5,
+    ""prompt_tokens"": 12,
+    ""total_tokens"": 17
+  }
+}, 200, 0.381379]"	[{'error': {'message': 'The server had an error while processing your request. Sorry about that!', 'type': 'server_error', 'param': None, 'code': None}}, 429]	0	17		12	A glove.
+Here are more brain games that will sharpen your mind (in a fun way)!	"[<OpenAIObject text_completion id=cmpl-6hWXI2bXhF03gf4lYlBX0fDS4gNQR at 0x2218dd2d720> JSON: {
+  ""choices"": [
+    {
+      ""finish_reason"": ""stop"",
+      ""index"": 0,
+      ""logprobs"": null,
+      ""text"": ""\n\n1. Spot the Difference: This game requires you to spot the differences between two seemingly identical images.\n\n2. Word Search: Find all the hidden words in a grid of letters.\n\n3. Memory Match: Flip over two cards and try to remember where each card is located.\n\n4. Jigsaw Puzzles: Assemble a picture from a set of interlocking pieces.\n\n5. Sudoku: Fill in the empty squares with the correct numbers.\n\n6. Crosswords: Solve a crossword puzzle by filling in the correct words.\n\n7. Riddles: Test your problem-solving skills with tricky riddles.\n\n8. Trivia: Test your knowledge with trivia questions.\n\n9. Chess: Strategize and plan your moves in this classic game.\n\n10. Hangman: Guess the correct letters to fill in the word before you run out of guesses.""
+    }
+  ],
+  ""created"": 1675831192,
+  ""id"": ""cmpl-6hWXI2bXhF03gf4lYlBX0fDS4gNQR"",
+  ""model"": ""text-davinci-003"",
+  ""object"": ""text_completion"",
+  ""usage"": {
+    ""completion_tokens"": 191,
+    ""prompt_tokens"": 19,
+    ""total_tokens"": 210
+  }
+}, 200, 3.072112]"	[{'id': 'cmpl-6hWYapD2nmx0KnnD6dpVIjJqGyo5b', 'object': 'text_completion', 'created': 1675831272, 'model': 'text-davinci-003', 'choices': [{'text': '\n\n1. Memory Matching – Test your memory by matching pairs of cards.\n\n2. Sudoku – Solve puzzles by filling in the correct numbers.\n\n3. Crosswords – Solve clues to complete the crossword puzzle.\n\n4. Chess – Strategize and outsmart your opponent in this classic game.\n\n5. Rubik’s Cube – Solve the cube by matching the colors on each side.\n\n6. Word Scramble – Unscramble the letters to form words.\n\n7. Brain Teasers – Test your problem-solving skills with riddles and puzzles.\n\n8. Brain Age – Train your brain with a series of mini-games.\n\n9. Mental Math – Improve your mental math skills with timed calculations.\n\n10. Mahjong – Match tiles in this ancient Chinese game.', 'index': 0, 'logprobs': None, 'finish_reason': 'stop'}], 'usage': {'prompt_tokens': 19, 'completion_tokens': 180, 'total_tokens': 199}}, 200]	199	210	"1. Memory Matching – Test your memory by matching pairs of cards.
+
+2. Sudoku – Solve puzzles by filling in the correct numbers.
+
+3. Crosswords – Solve clues to complete the crossword puzzle.
+
+4. Chess – Strategize and outsmart your opponent in this classic game.
+
+5. Rubik’s Cube – Solve the cube by matching the colors on each side.
+
+6. Word Scramble – Unscramble the letters to form words.
+
+7. Brain Teasers – Test your problem-solving skills with riddles and puzzles.
+
+8. Brain Age – Train your brain with a series of mini-games.
+
+9. Mental Math – Improve your mental math skills with timed calculations.
+
+10. Mahjong – Match tiles in this ancient Chinese game."	19	"1. Spot the Difference: This game requires you to spot the differences between two seemingly identical images.
+
+2. Word Search: Find all the hidden words in a grid of letters.
+
+3. Memory Match: Flip over two cards and try to remember where each card is located.
+
+4. Jigsaw Puzzles: Assemble a picture from a set of interlocking pieces.
+
+5. Sudoku: Fill in the empty squares with the correct numbers.
+
+6. Crosswords: Solve a crossword puzzle by filling in the correct words.
+
+7. Riddles: Test your problem-solving skills with tricky riddles.
+
+8. Trivia: Test your knowledge with trivia questions.
+
+9. Chess: Strategize and plan your moves in this classic game.
+
+10. Hangman: Guess the correct letters to fill in the word before you run out of guesses."
+Ted is the father of Sam, but Sam is not the son of Ted. How is that possible?	"[<OpenAIObject text_completion id=cmpl-6hWXLtm5M4A7MxZVZOjuOFbfm8ZvZ at 0x2218dd2d9f0> JSON: {
+  ""choices"": [
+    {
+      ""finish_reason"": ""stop"",
+      ""index"": 0,
+      ""logprobs"": null,
+      ""text"": ""\n\nIt is possible if Ted is not Sam's biological father, but is instead a stepfather, adoptive father, or legal guardian.""
+    }
+  ],
+  ""created"": 1675831195,
+  ""id"": ""cmpl-6hWXLtm5M4A7MxZVZOjuOFbfm8ZvZ"",
+  ""model"": ""text-davinci-003"",
+  ""object"": ""text_completion"",
+  ""usage"": {
+    ""completion_tokens"": 28,
+    ""prompt_tokens"": 21,
+    ""total_tokens"": 49
+  }
+}, 200, 0.865416]"	"[{'id': 'cmpl-6hWYwHjqSksrWOfFxnb5TG0m6WyjD', 'object': 'text_completion', 'created': 1675831294, 'model': 'text-davinci-003', 'choices': [{'text': ""\n\nIt is possible if Ted is not Sam's biological father, but rather his adoptive father."", 'index': 0, 'logprobs': None, 'finish_reason': 'stop'}], 'usage': {'prompt_tokens': 21, 'completion_tokens': 20, 'total_tokens': 41}}, 200]"	41	49	It is possible if Ted is not Sam's biological father, but rather his adoptive father.	21	It is possible if Ted is not Sam's biological father, but is instead a stepfather, adoptive father, or legal guardian.
+A deli worker in a grocery store is described as being 6’1″, wears size 10 shoes, and wears a medium-sized shirt. What does the deli worker weigh?	"[<OpenAIObject text_completion id=cmpl-6hWXMkWAENUnbAIAEQKXrCzxY9zkR at 0x2218dd2dc70> JSON: {
+  ""choices"": [
+    {
+      ""finish_reason"": ""stop"",
+      ""index"": 0,
+      ""logprobs"": null,
+      ""text"": ""\n\nThis question cannot be answered because the weight of the deli worker is not given.""
+    }
+  ],
+  ""created"": 1675831196,
+  ""id"": ""cmpl-6hWXMkWAENUnbAIAEQKXrCzxY9zkR"",
+  ""model"": ""text-davinci-003"",
+  ""object"": ""text_completion"",
+  ""usage"": {
+    ""completion_tokens"": 19,
+    ""prompt_tokens"": 39,
+    ""total_tokens"": 58
+  }
+}, 200, 0.61117]"	"[{'id': 'cmpl-6hWYzHhobXT9SOy4OFrJY9s1FRF3I', 'object': 'text_completion', 'created': 1675831297, 'model': 'text-davinci-003', 'choices': [{'text': ""\n\nIt is impossible to accurately determine the deli worker's weight based on the information provided."", 'index': 0, 'logprobs': None, 'finish_reason': 'stop'}], 'usage': {'prompt_tokens': 39, 'completion_tokens': 20, 'total_tokens': 59}}, 200]"	59	58	It is impossible to accurately determine the deli worker's weight based on the information provided.	39	This question cannot be answered because the weight of the deli worker is not given.
+A suspected burglar is brought in for questioning for a robbery that happened on the 4th of July. He tells the police he has an alibi, as he was home at the time of the robbery. A mailman comes in to the police station and verifies that he saw the suspect at home at the time of the robbery while on his mail route. The police, however, immediately know the mailman is lying. How?	"[<OpenAIObject text_completion id=cmpl-6hWXMkkylQtUtrmXKX2vTCbOzOUAz at 0x2218dd2a130> JSON: {
+  ""choices"": [
+    {
+      ""finish_reason"": ""stop"",
+      ""index"": 0,
+      ""logprobs"": null,
+      ""text"": ""\n\nThe police would know the mailman is lying because the 4th of July is a national holiday, and there would not have been a mail route that day.""
+    }
+  ],
+  ""created"": 1675831196,
+  ""id"": ""cmpl-6hWXMkkylQtUtrmXKX2vTCbOzOUAz"",
+  ""model"": ""text-davinci-003"",
+  ""object"": ""text_completion"",
+  ""usage"": {
+    ""completion_tokens"": 34,
+    ""prompt_tokens"": 88,
+    ""total_tokens"": 122
+  }
+}, 200, 1.250863]"	[{'id': 'cmpl-6hWZ2mgdA5O44mfxE8zSPPPnVV2lO', 'object': 'text_completion', 'created': 1675831300, 'model': 'text-davinci-003', 'choices': [{'text': '\n\nThe police would know the mailman is lying because the 4th of July is a federal holiday, so there would be no mail delivery.', 'index': 0, 'logprobs': None, 'finish_reason': 'stop'}], 'usage': {'prompt_tokens': 88, 'completion_tokens': 30, 'total_tokens': 118}}, 200]	118	122	The police would know the mailman is lying because the 4th of July is a federal holiday, so there would be no mail delivery.	88	The police would know the mailman is lying because the 4th of July is a national holiday, and there would not have been a mail route that day.
+Check out more cool detective riddles.MORE FROM READER'S DIGEST - ARTICLE CONTINUES BELOWSkip Ad	"[<OpenAIObject text_completion id=cmpl-6hWXNujLLt6bGuORc8Mayc9IUvBev at 0x2218dd2a2c0> JSON: {
+  ""choices"": [
+    {
+      ""finish_reason"": ""stop"",
+      ""index"": 0,
+      ""logprobs"": null,
+      ""text"": ""\n\n1. What has hands but can't clap?\nA clock.\n\n2. What kind of room has no doors or windows?\nA mushroom.\n\n3. What can you catch but not throw?\nA cold.\n\n4. What starts with an E, ends with an E, and has only one letter in it?\nAn envelope.\n\n5. What kind of tree can you carry in your hand?\nA palm tree.""
+    }
+  ],
+  ""created"": 1675831197,
+  ""id"": ""cmpl-6hWXNujLLt6bGuORc8Mayc9IUvBev"",
+  ""model"": ""text-davinci-003"",
+  ""object"": ""text_completion"",
+  ""usage"": {
+    ""completion_tokens"": 98,
+    ""prompt_tokens"": 27,
+    ""total_tokens"": 125
+  }
+}, 200, 2.190171]"	[{'id': 'cmpl-6hWZ5oVL4q32AuddEJ9ezqH90iSuB', 'object': 'text_completion', 'created': 1675831303, 'model': 'text-davinci-003', 'choices': [{'text': '\n\n1. What has a head, a tail, is brown, and has no legs?\n\nAnswer: A penny.', 'index': 0, 'logprobs': None, 'finish_reason': 'stop'}], 'usage': {'prompt_tokens': 27, 'completion_tokens': 27, 'total_tokens': 54}}, 200]	54	125	"1. What has a head, a tail, is brown, and has no legs?
+
+Answer: A penny."	27	"1. What has hands but can't clap?
+A clock.
+
+2. What kind of room has no doors or windows?
+A mushroom.
+
+3. What can you catch but not throw?
+A cold.
+
+4. What starts with an E, ends with an E, and has only one letter in it?
+An envelope.
+
+5. What kind of tree can you carry in your hand?
+A palm tree."
+FictionWhat Is Miso, Exactly?Marie Kondo Has Finally Embraced Messy—Here’s WhyThese Are the Best and Worst Airlines In the U.S.	"[<OpenAIObject text_completion id=cmpl-6hWXQ59IWg2JCjBv5yGCC7IK0QB6Z at 0x2218dd2a450> JSON: {
+  ""choices"": [
+    {
+      ""finish_reason"": ""stop"",
+      ""index"": 0,
+      ""logprobs"": null,
+      ""text"": ""\n\nMiso is a traditional Japanese seasoning made from fermented soybeans, salt, and sometimes other grains like rice or barley. It has a salty, umami flavor and is used in a variety of dishes, including soups, sauces, marinades, and dressings. Marie Kondo, the popular Japanese organizing consultant, has recently changed her stance on messiness, saying that it is an important part of life and should be embraced. She has also argued that having some messiness can be beneficial for creativity and productivity. The best airlines in the U.S. are Alaska Airlines, Delta Air Lines, Southwest Airlines, and JetBlue Airways, according to the U.S. Department of Transportation's Air Travel Consumer Report. The worst airlines are Frontier Airlines, Spirit Airlines, and American Airlines.""
+    }
+  ],
+  ""created"": 1675831200,
+  ""id"": ""cmpl-6hWXQ59IWg2JCjBv5yGCC7IK0QB6Z"",
+  ""model"": ""text-davinci-003"",
+  ""object"": ""text_completion"",
+  ""usage"": {
+    ""completion_tokens"": 162,
+    ""prompt_tokens"": 38,
+    ""total_tokens"": 200
+  }
+}, 200, 3.355005]"	[{'id': 'cmpl-6hWZ9r1p3DXxlOM7nwszaoXbuwRur', 'object': 'text_completion', 'created': 1675831307, 'model': 'text-davinci-003', 'choices': [{'text': '\n\nMiso is a traditional Japanese seasoning made from fermented soybeans, salt, and koji, a type of mold used in fermentation. It is used to make soups, sauces, and marinades, and is a key ingredient in many Japanese dishes.\n\nMarie Kondo, the Japanese organizing consultant, has recently embraced the idea of “messy minimalism”—a style of living that emphasizes the importance of living with less, but also allows for some messiness. Kondo believes that a little messiness can be beneficial for creativity and personal growth.\n\nThe best airlines in the U.S. are Alaska Airlines, Delta Air Lines, and Southwest Airlines, according to the 2019 Airline Quality Rating report. The worst airlines in the U.S. are Spirit Airlines, Frontier Airlines, and American Airlines, according to the same report.', 'index': 0, 'logprobs': None, 'finish_reason': 'stop'}], 'usage': {'prompt_tokens': 38, 'completion_tokens': 177, 'total_tokens': 215}}, 200]	215	200	"Miso is a traditional Japanese seasoning made from fermented soybeans, salt, and koji, a type of mold used in fermentation. It is used to make soups, sauces, and marinades, and is a key ingredient in many Japanese dishes.
+
+Marie Kondo, the Japanese organizing consultant, has recently embraced the idea of “messy minimalism”—a style of living that emphasizes the importance of living with less, but also allows for some messiness. Kondo believes that a little messiness can be beneficial for creativity and personal growth.
+
+The best airlines in the U.S. are Alaska Airlines, Delta Air Lines, and Southwest Airlines, according to the 2019 Airline Quality Rating report. The worst airlines in the U.S. are Spirit Airlines, Frontier Airlines, and American Airlines, according to the same report."	38	Miso is a traditional Japanese seasoning made from fermented soybeans, salt, and sometimes other grains like rice or barley. It has a salty, umami flavor and is used in a variety of dishes, including soups, sauces, marinades, and dressings. Marie Kondo, the popular Japanese organizing consultant, has recently changed her stance on messiness, saying that it is an important part of life and should be embraced. She has also argued that having some messiness can be beneficial for creativity and productivity. The best airlines in the U.S. are Alaska Airlines, Delta Air Lines, Southwest Airlines, and JetBlue Airways, according to the U.S. Department of Transportation's Air Travel Consumer Report. The worst airlines are Frontier Airlines, Spirit Airlines, and American Airlines.
+What babbles but never talks?	"[<OpenAIObject text_completion id=cmpl-6hWXTcJpcID62kCMRTVbOXz6JURfd at 0x2218dd2a6d0> JSON: {
+  ""choices"": [
+    {
+      ""finish_reason"": ""stop"",
+      ""index"": 0,
+      ""logprobs"": null,
+      ""text"": ""\n\nA brook.""
+    }
+  ],
+  ""created"": 1675831203,
+  ""id"": ""cmpl-6hWXTcJpcID62kCMRTVbOXz6JURfd"",
+  ""model"": ""text-davinci-003"",
+  ""object"": ""text_completion"",
+  ""usage"": {
+    ""completion_tokens"": 6,
+    ""prompt_tokens"": 8,
+    ""total_tokens"": 14
+  }
+}, 200, 0.427411]"	[{'id': 'cmpl-6hWZKrAG2DxSmESyosanj2sscxxeX', 'object': 'text_completion', 'created': 1675831318, 'model': 'text-davinci-003', 'choices': [{'text': '\n\nA brook.', 'index': 0, 'logprobs': None, 'finish_reason': 'stop'}], 'usage': {'prompt_tokens': 8, 'completion_tokens': 6, 'total_tokens': 14}}, 200]	14	14	A brook.	8	A brook.
+What’s something that has teeth but can’t chew?	"[<OpenAIObject text_completion id=cmpl-6hWXTtFm5YkR6nHMAz60Ja1tWcApp at 0x2218dd2a950> JSON: {
+  ""choices"": [
+    {
+      ""finish_reason"": ""stop"",
+      ""index"": 0,
+      ""logprobs"": null,
+      ""text"": ""\n\nA zipper.""
+    }
+  ],
+  ""created"": 1675831203,
+  ""id"": ""cmpl-6hWXTtFm5YkR6nHMAz60Ja1tWcApp"",
+  ""model"": ""text-davinci-003"",
+  ""object"": ""text_completion"",
+  ""usage"": {
+    ""completion_tokens"": 5,
+    ""prompt_tokens"": 15,
+    ""total_tokens"": 20
+  }
+}, 200, 0.411636]"	[{'id': 'cmpl-6hWZMZHgEIF8VE5UHqGMKgATngQZw', 'object': 'text_completion', 'created': 1675831320, 'model': 'text-davinci-003', 'choices': [{'text': '\n\nA zipper.', 'index': 0, 'logprobs': None, 'finish_reason': 'stop'}], 'usage': {'prompt_tokens': 15, 'completion_tokens': 5, 'total_tokens': 20}}, 200]	20	20	A zipper.	15	A zipper.
+A man once said he went 35 days without sleep. How is that possible?	"[<OpenAIObject text_completion id=cmpl-6hWXUbA7ANxJDGorefD9EO8qTeAeO at 0x2218dd2abd0> JSON: {
+  ""choices"": [
+    {
+      ""finish_reason"": ""stop"",
+      ""index"": 0,
+      ""logprobs"": null,
+      ""text"": ""\n\nIt is not possible for a human to go 35 days without sleep. Sleep deprivation of this length can lead to serious physical and mental health problems.""
+    }
+  ],
+  ""created"": 1675831204,
+  ""id"": ""cmpl-6hWXUbA7ANxJDGorefD9EO8qTeAeO"",
+  ""model"": ""text-davinci-003"",
+  ""object"": ""text_completion"",
+  ""usage"": {
+    ""completion_tokens"": 31,
+    ""prompt_tokens"": 16,
+    ""total_tokens"": 47
+  }
+}, 200, 1.015962]"	[{'id': 'cmpl-6hWZOlhopdkFnWd0ckHXGal5eRMwg', 'object': 'text_completion', 'created': 1675831322, 'model': 'text-davinci-003', 'choices': [{'text': '\n\nIt is not possible for a human to go 35 days without sleep. Sleep deprivation can cause a variety of physical and mental health issues, including confusion, hallucinations, and impaired judgment. The longest recorded time without sleep is 11 days, by a student participating in a sleep deprivation study.', 'index': 0, 'logprobs': None, 'finish_reason': 'stop'}], 'usage': {'prompt_tokens': 16, 'completion_tokens': 58, 'total_tokens': 74}}, 200]	74	47	It is not possible for a human to go 35 days without sleep. Sleep deprivation can cause a variety of physical and mental health issues, including confusion, hallucinations, and impaired judgment. The longest recorded time without sleep is 11 days, by a student participating in a sleep deprivation study.	16	It is not possible for a human to go 35 days without sleep. Sleep deprivation of this length can lead to serious physical and mental health problems.
+What’s something that always wants an answer but doesn’t have a question?	"[<OpenAIObject text_completion id=cmpl-6hWXVDbBegeK7s7P7epITq0Yfh68l at 0x2218dd430e0> JSON: {
+  ""choices"": [
+    {
+      ""finish_reason"": ""stop"",
+      ""index"": 0,
+      ""logprobs"": null,
+      ""text"": ""\n\nA riddle.""
+    }
+  ],
+  ""created"": 1675831205,
+  ""id"": ""cmpl-6hWXVDbBegeK7s7P7epITq0Yfh68l"",
+  ""model"": ""text-davinci-003"",
+  ""object"": ""text_completion"",
+  ""usage"": {
+    ""completion_tokens"": 6,
+    ""prompt_tokens"": 19,
+    ""total_tokens"": 25
+  }
+}, 200, 0.422785]"	[{'id': 'cmpl-6hWZSSUSAPDAKFmTvTzeAiznz3HwG', 'object': 'text_completion', 'created': 1675831326, 'model': 'text-davinci-003', 'choices': [{'text': '\n\nA riddle.', 'index': 0, 'logprobs': None, 'finish_reason': 'stop'}], 'usage': {'prompt_tokens': 19, 'completion_tokens': 6, 'total_tokens': 25}}, 200]	25	25	A riddle.	19	A riddle.
+You can catch me, but I can’t be thrown. What am I?	"[<OpenAIObject text_completion id=cmpl-6hWXVFqmTiiHTLQcbmaK8WXTXyCo2 at 0x2218dd43180> JSON: {
+  ""choices"": [
+    {
+      ""finish_reason"": ""stop"",
+      ""index"": 0,
+      ""logprobs"": null,
+      ""text"": ""\n\nA shadow.""
+    }
+  ],
+  ""created"": 1675831205,
+  ""id"": ""cmpl-6hWXVFqmTiiHTLQcbmaK8WXTXyCo2"",
+  ""model"": ""text-davinci-003"",
+  ""object"": ""text_completion"",
+  ""usage"": {
+    ""completion_tokens"": 5,
+    ""prompt_tokens"": 18,
+    ""total_tokens"": 23
+  }
+}, 200, 0.399711]"	[{'error': {'message': 'The server had an error while processing your request. Sorry about that!', 'type': 'server_error', 'param': None, 'code': None}}, 429]	0	23		18	A shadow.
+A woman quickly realizes there is no air in her driver’s side tire, but she finds something else in the tire instead. What is it?	"[<OpenAIObject text_completion id=cmpl-6hWXWBmLz2AY2TK5s8dYioE0PH2Y8 at 0x2218dd433b0> JSON: {
+  ""choices"": [
+    {
+      ""finish_reason"": ""stop"",
+      ""index"": 0,
+      ""logprobs"": null,
+      ""text"": ""\n\nIt could be anything, from a flat tire repair kit to a small object that was lodged in the tire.""
+    }
+  ],
+  ""created"": 1675831206,
+  ""id"": ""cmpl-6hWXWBmLz2AY2TK5s8dYioE0PH2Y8"",
+  ""model"": ""text-davinci-003"",
+  ""object"": ""text_completion"",
+  ""usage"": {
+    ""completion_tokens"": 24,
+    ""prompt_tokens"": 31,
+    ""total_tokens"": 55
+  }
+}, 200, 0.753201]"	[{'id': 'cmpl-6hWZUTmG7sVMpBQlVmjz47cK2c09A', 'object': 'text_completion', 'created': 1675831328, 'model': 'text-davinci-003', 'choices': [{'text': '\n\nIt could be anything from a nail or a screw to a rock or a piece of glass.', 'index': 0, 'logprobs': None, 'finish_reason': 'stop'}], 'usage': {'prompt_tokens': 31, 'completion_tokens': 21, 'total_tokens': 52}}, 200]	52	55	It could be anything from a nail or a screw to a rock or a piece of glass.	31	It could be anything, from a flat tire repair kit to a small object that was lodged in the tire.
+What’s something that gets wetter the more it dries?	"[<OpenAIObject text_completion id=cmpl-6hWXWpCsZerq5Bvab9tOwM10fsTYj at 0x2218dd43630> JSON: {
+  ""choices"": [
+    {
+      ""finish_reason"": ""stop"",
+      ""index"": 0,
+      ""logprobs"": null,
+      ""text"": ""\n\nA towel.""
+    }
+  ],
+  ""created"": 1675831206,
+  ""id"": ""cmpl-6hWXWpCsZerq5Bvab9tOwM10fsTYj"",
+  ""model"": ""text-davinci-003"",
+  ""object"": ""text_completion"",
+  ""usage"": {
+    ""completion_tokens"": 5,
+    ""prompt_tokens"": 15,
+    ""total_tokens"": 20
+  }
+}, 200, 0.376118]"	[{'id': 'cmpl-6hWZWuBf3dQxeXoyuTfYWrmDm1Sb3', 'object': 'text_completion', 'created': 1675831330, 'model': 'text-davinci-003', 'choices': [{'text': '\n\nA towel.', 'index': 0, 'logprobs': None, 'finish_reason': 'stop'}], 'usage': {'prompt_tokens': 15, 'completion_tokens': 5, 'total_tokens': 20}}, 200]	20	20	A towel.	15	A towel.
+Sandy claims she saw an ocean without water, and it turns out, she was being honest. How is that possible?	"[<OpenAIObject text_completion id=cmpl-6hWXXdX2BZNY7AhxRb1CFFdHZfQWN at 0x2218dd438b0> JSON: {
+  ""choices"": [
+    {
+      ""finish_reason"": ""stop"",
+      ""index"": 0,
+      ""logprobs"": null,
+      ""text"": ""\n\nIt is possible if Sandy saw an ocean during a drought. During droughts, the ocean can dry up and leave behind a vast expanse of sand.""
+    }
+  ],
+  ""created"": 1675831207,
+  ""id"": ""cmpl-6hWXXdX2BZNY7AhxRb1CFFdHZfQWN"",
+  ""model"": ""text-davinci-003"",
+  ""object"": ""text_completion"",
+  ""usage"": {
+    ""completion_tokens"": 34,
+    ""prompt_tokens"": 25,
+    ""total_tokens"": 59
+  }
+}, 200, 1.170263]"	[{'id': 'cmpl-6hWZYiYjdFaG6C1RHWEUTl5DsK4Ke', 'object': 'text_completion', 'created': 1675831332, 'model': 'text-davinci-003', 'choices': [{'text': '\n\nIt is possible if Sandy saw an ocean bed that had dried up due to drought or other natural causes.', 'index': 0, 'logprobs': None, 'finish_reason': 'stop'}], 'usage': {'prompt_tokens': 25, 'completion_tokens': 23, 'total_tokens': 48}}, 200]	48	59	It is possible if Sandy saw an ocean bed that had dried up due to drought or other natural causes.	25	It is possible if Sandy saw an ocean during a drought. During droughts, the ocean can dry up and leave behind a vast expanse of sand.
+Sandy saw the ocean on a map	"[<OpenAIObject text_completion id=cmpl-6hWXYK241enm3vDDOOmw3q6xuhcCB at 0x2218dd43d60> JSON: {
+  ""choices"": [
+    {
+      ""finish_reason"": ""stop"",
+      ""index"": 0,
+      ""logprobs"": null,
+      ""text"": ""\n\nSandy could see the ocean on a map, either as a large body of water or as a line that separates two land masses. Depending on the map, Sandy may also be able to see the shoreline and any islands in the ocean.""
+    }
+  ],
+  ""created"": 1675831208,
+  ""id"": ""cmpl-6hWXYK241enm3vDDOOmw3q6xuhcCB"",
+  ""model"": ""text-davinci-003"",
+  ""object"": ""text_completion"",
+  ""usage"": {
+    ""completion_tokens"": 51,
+    ""prompt_tokens"": 8,
+    ""total_tokens"": 59
+  }
+}, 200, 1.892859]"	[{'id': 'cmpl-6hWZa8jhM7NSzXnajr5AR9vMT0HWZ', 'object': 'text_completion', 'created': 1675831334, 'model': 'text-davinci-003', 'choices': [{'text': '\n\nSandy saw the ocean on a map. She could see the outline of the coastline and the different colors of the water. She could also see the islands and other landforms in the ocean.', 'index': 0, 'logprobs': None, 'finish_reason': 'stop'}], 'usage': {'prompt_tokens': 8, 'completion_tokens': 41, 'total_tokens': 49}}, 200]	49	59	Sandy saw the ocean on a map. She could see the outline of the coastline and the different colors of the water. She could also see the islands and other landforms in the ocean.	8	Sandy could see the ocean on a map, either as a large body of water or as a line that separates two land masses. Depending on the map, Sandy may also be able to see the shoreline and any islands in the ocean.
+What happens when you throw a blue rock into the Red Sea?	"[<OpenAIObject text_completion id=cmpl-6hWXae0b1hQle1c0uinEFnedTCKga at 0x2218dd43a40> JSON: {
+  ""choices"": [
+    {
+      ""finish_reason"": ""stop"",
+      ""index"": 0,
+      ""logprobs"": null,
+      ""text"": ""\n\nThe blue rock would simply sink to the bottom of the Red Sea, as it is denser than the surrounding water.""
+    }
+  ],
+  ""created"": 1675831210,
+  ""id"": ""cmpl-6hWXae0b1hQle1c0uinEFnedTCKga"",
+  ""model"": ""text-davinci-003"",
+  ""object"": ""text_completion"",
+  ""usage"": {
+    ""completion_tokens"": 26,
+    ""prompt_tokens"": 13,
+    ""total_tokens"": 39
+  }
+}, 200, 0.730601]"	[{'id': 'cmpl-6hWZfLzGid30Auc7m95OBQjSVEnqz', 'object': 'text_completion', 'created': 1675831339, 'model': 'text-davinci-003', 'choices': [{'text': '\n\nThe blue rock would simply sink to the bottom of the Red Sea. The color of the rock would not have any effect on its ability to float or sink.', 'index': 0, 'logprobs': None, 'finish_reason': 'stop'}], 'usage': {'prompt_tokens': 13, 'completion_tokens': 34, 'total_tokens': 47}}, 200]	47	39	The blue rock would simply sink to the bottom of the Red Sea. The color of the rock would not have any effect on its ability to float or sink.	13	The blue rock would simply sink to the bottom of the Red Sea, as it is denser than the surrounding water.
+How can you drop a glass vase on a hardwood floor and not crack it?	"[<OpenAIObject text_completion id=cmpl-6hWXbAnidOYeCNjYF2utG6LXoGicv at 0x2218d4acf90> JSON: {
+  ""choices"": [
+    {
+      ""finish_reason"": ""stop"",
+      ""index"": 0,
+      ""logprobs"": null,
+      ""text"": ""\n\nThe best way to drop a glass vase on a hardwood floor and not crack it is to cushion the fall. You can do this by placing a folded towel or blanket on the floor where you plan to drop the vase. The extra cushion will help absorb the impact and keep the vase from cracking.""
+    }
+  ],
+  ""created"": 1675831211,
+  ""id"": ""cmpl-6hWXbAnidOYeCNjYF2utG6LXoGicv"",
+  ""model"": ""text-davinci-003"",
+  ""object"": ""text_completion"",
+  ""usage"": {
+    ""completion_tokens"": 65,
+    ""prompt_tokens"": 18,
+    ""total_tokens"": 83
+  }
+}, 200, 1.489763]"	[{'id': 'cmpl-6hWZiaGLCfZtJzG6MUGNfCkwfQK3E', 'object': 'text_completion', 'created': 1675831342, 'model': 'text-davinci-003', 'choices': [{'text': '\n\nThe best way to drop a glass vase on a hardwood floor and not crack it is to cushion the fall with something soft, such as a blanket or pillow. If the vase is particularly fragile, it is also recommended to wrap it in bubble wrap or a towel before dropping it.', 'index': 0, 'logprobs': None, 'finish_reason': 'stop'}], 'usage': {'prompt_tokens': 18, 'completion_tokens': 61, 'total_tokens': 79}}, 200]	79	83	The best way to drop a glass vase on a hardwood floor and not crack it is to cushion the fall with something soft, such as a blanket or pillow. If the vase is particularly fragile, it is also recommended to wrap it in bubble wrap or a towel before dropping it.	18	The best way to drop a glass vase on a hardwood floor and not crack it is to cushion the fall. You can do this by placing a folded towel or blanket on the floor where you plan to drop the vase. The extra cushion will help absorb the impact and keep the vase from cracking.
+Hardwood floors are hard to crack	"[<OpenAIObject text_completion id=cmpl-6hWXcdENCBe7DRvw2tZIFESIbMsRa at 0x2218d3fe1d0> JSON: {
+  ""choices"": [
+    {
+      ""finish_reason"": ""stop"",
+      ""index"": 0,
+      ""logprobs"": null,
+      ""text"": ""\n\nHardwood floors are very durable and difficult to crack. They are also resistant to wear and tear and are a great option for long-term use. Hardwood floors can last for decades with proper care and maintenance. They are also relatively easy to repair if they do become cracked or damaged.""
+    }
+  ],
+  ""created"": 1675831212,
+  ""id"": ""cmpl-6hWXcdENCBe7DRvw2tZIFESIbMsRa"",
+  ""model"": ""text-davinci-003"",
+  ""object"": ""text_completion"",
+  ""usage"": {
+    ""completion_tokens"": 60,
+    ""prompt_tokens"": 7,
+    ""total_tokens"": 67
+  }
+}, 200, 1.185531]"	[{'id': 'cmpl-6hWZoTugVDBNZhbm65QTY5Fe4xR7H', 'object': 'text_completion', 'created': 1675831348, 'model': 'text-davinci-003', 'choices': [{'text': '\n\nYes, hardwood floors are very hard to crack. Hardwood floors are very durable and resistant to cracking and denting, however, they can be damaged if they are not properly maintained or if they are subjected to heavy impacts. It is important to ensure that the floors are regularly cleaned and waxed to protect them from wear and tear.', 'index': 0, 'logprobs': None, 'finish_reason': 'stop'}], 'usage': {'prompt_tokens': 7, 'completion_tokens': 70, 'total_tokens': 77}}, 200]	77	67	Yes, hardwood floors are very hard to crack. Hardwood floors are very durable and resistant to cracking and denting, however, they can be damaged if they are not properly maintained or if they are subjected to heavy impacts. It is important to ensure that the floors are regularly cleaned and waxed to protect them from wear and tear.	7	Hardwood floors are very durable and difficult to crack. They are also resistant to wear and tear and are a great option for long-term use. Hardwood floors can last for decades with proper care and maintenance. They are also relatively easy to repair if they do become cracked or damaged.
+What’s something that copies your looks but not your sounds?	"[<OpenAIObject text_completion id=cmpl-6hWXdXXWcrLz5MRXZ16JM7eFuXkrj at 0x2218d4acf40> JSON: {
+  ""choices"": [
+    {
+      ""finish_reason"": ""stop"",
+      ""index"": 0,
+      ""logprobs"": null,
+      ""text"": ""\n\nA mirror.""
+    }
+  ],
+  ""created"": 1675831213,
+  ""id"": ""cmpl-6hWXdXXWcrLz5MRXZ16JM7eFuXkrj"",
+  ""model"": ""text-davinci-003"",
+  ""object"": ""text_completion"",
+  ""usage"": {
+    ""completion_tokens"": 5,
+    ""prompt_tokens"": 14,
+    ""total_tokens"": 19
+  }
+}, 200, 0.394084]"	[{'error': {'message': 'The server had an error while processing your request. Sorry about that!', 'type': 'server_error', 'param': None, 'code': None}}, 429]	0	19		14	A mirror.
+I wave, even if you don’t say hello. What am I?	"[<OpenAIObject text_completion id=cmpl-6hWXe80AnLUZxIxWQrDjsjoe2NDxj at 0x2218ce68ea0> JSON: {
+  ""choices"": [
+    {
+      ""finish_reason"": ""stop"",
+      ""index"": 0,
+      ""logprobs"": null,
+      ""text"": ""\n\nYou are friendly and polite.""
+    }
+  ],
+  ""created"": 1675831214,
+  ""id"": ""cmpl-6hWXe80AnLUZxIxWQrDjsjoe2NDxj"",
+  ""model"": ""text-davinci-003"",
+  ""object"": ""text_completion"",
+  ""usage"": {
+    ""completion_tokens"": 8,
+    ""prompt_tokens"": 17,
+    ""total_tokens"": 25
+  }
+}, 200, 0.512604]"	[{'id': 'cmpl-6hWZzD8bHxOnhhS46P7NLz0vz9xKr', 'object': 'text_completion', 'created': 1675831359, 'model': 'text-davinci-003', 'choices': [{'text': '\n\nYou are friendly and kind.', 'index': 0, 'logprobs': None, 'finish_reason': 'stop'}], 'usage': {'prompt_tokens': 17, 'completion_tokens': 8, 'total_tokens': 25}}, 200]	25	25	You are friendly and kind.	17	You are friendly and polite.
+Al fell from a 30-foot ladder but didn’t get hurt. How is that possible?	"[<OpenAIObject text_completion id=cmpl-6hWXeJ88qOVbbpKRduy3SM9yzZ4NP at 0x2218ce68cc0> JSON: {
+  ""choices"": [
+    {
+      ""finish_reason"": ""stop"",
+      ""index"": 0,
+      ""logprobs"": null,
+      ""text"": ""\n\nIt is possible that Al was able to land in a way that cushioned the fall, such as rolling or tucking into a ball. It is also possible that Al was lucky enough to land in a soft surface such as a pile of leaves or a mattress.""
+    }
+  ],
+  ""created"": 1675831214,
+  ""id"": ""cmpl-6hWXeJ88qOVbbpKRduy3SM9yzZ4NP"",
+  ""model"": ""text-davinci-003"",
+  ""object"": ""text_completion"",
+  ""usage"": {
+    ""completion_tokens"": 55,
+    ""prompt_tokens"": 21,
+    ""total_tokens"": 76
+  }
+}, 200, 1.129072]"	"[{'id': 'cmpl-6hWa11yH9bHSvUqfiD1s0xWszS7R0', 'object': 'text_completion', 'created': 1675831361, 'model': 'text-davinci-003', 'choices': [{'text': ""\n\nIt is possible that Al fell from a 30-foot ladder but didn't get hurt if he was able to break his fall by landing on something soft, such as a mattress or a pile of leaves. He could also have landed in a pool of water or on a trampoline. It is also possible that he was wearing protective gear, such as a helmet, which helped cushion the impact of the fall."", 'index': 0, 'logprobs': None, 'finish_reason': 'stop'}], 'usage': {'prompt_tokens': 21, 'completion_tokens': 85, 'total_tokens': 106}}, 200]"	106	76	It is possible that Al fell from a 30-foot ladder but didn't get hurt if he was able to break his fall by landing on something soft, such as a mattress or a pile of leaves. He could also have landed in a pool of water or on a trampoline. It is also possible that he was wearing protective gear, such as a helmet, which helped cushion the impact of the fall.	21	It is possible that Al was able to land in a way that cushioned the fall, such as rolling or tucking into a ball. It is also possible that Al was lucky enough to land in a soft surface such as a pile of leaves or a mattress.
+He fell from the bottom rung	"[<OpenAIObject text_completion id=cmpl-6hWXf1lYmTpqnMMMSZhu60DCpHIPx at 0x2218c780590> JSON: {
+  ""choices"": [
+    {
+      ""finish_reason"": ""stop"",
+      ""index"": 0,
+      ""logprobs"": null,
+      ""text"": ""\n\nHe fell from the bottom rung of the ladder and likely sustained some kind of injury. Depending on the height of the ladder and the surface he fell onto, he could have suffered a broken bone, concussion, or other serious injury.""
+    }
+  ],
+  ""created"": 1675831215,
+  ""id"": ""cmpl-6hWXf1lYmTpqnMMMSZhu60DCpHIPx"",
+  ""model"": ""text-davinci-003"",
+  ""object"": ""text_completion"",
+  ""usage"": {
+    ""completion_tokens"": 49,
+    ""prompt_tokens"": 7,
+    ""total_tokens"": 56
+  }
+}, 200, 1.428339]"	[{'id': 'cmpl-6hWaCGOTqy5DaNLo9xhUkzZp6rNhF', 'object': 'text_completion', 'created': 1675831372, 'model': 'text-davinci-003', 'choices': [{'text': '\n\nHe fell from the bottom rung of the ladder and may have suffered a serious injury. It is important to ensure that ladders are set up on a stable surface and that they are not overloaded. If a person is using a ladder, they should always be aware of their surroundings and use the ladder safely.', 'index': 0, 'logprobs': None, 'finish_reason': 'stop'}], 'usage': {'prompt_tokens': 7, 'completion_tokens': 64, 'total_tokens': 71}}, 200]	71	56	He fell from the bottom rung of the ladder and may have suffered a serious injury. It is important to ensure that ladders are set up on a stable surface and that they are not overloaded. If a person is using a ladder, they should always be aware of their surroundings and use the ladder safely.	7	He fell from the bottom rung of the ladder and likely sustained some kind of injury. Depending on the height of the ladder and the surface he fell onto, he could have suffered a broken bone, concussion, or other serious injury.
+What word becomes longer after you add two letters to it?	"[<OpenAIObject text_completion id=cmpl-6hWXhovSfnehoZKv4qJ464LKW7uQr at 0x2218bea9b30> JSON: {
+  ""choices"": [
+    {
+      ""finish_reason"": ""stop"",
+      ""index"": 0,
+      ""logprobs"": null,
+      ""text"": ""\n\nAnswer: Increase (in + crease)""
+    }
+  ],
+  ""created"": 1675831217,
+  ""id"": ""cmpl-6hWXhovSfnehoZKv4qJ464LKW7uQr"",
+  ""model"": ""text-davinci-003"",
+  ""object"": ""text_completion"",
+  ""usage"": {
+    ""completion_tokens"": 11,
+    ""prompt_tokens"": 12,
+    ""total_tokens"": 23
+  }
+}, 200, 0.886055]"	[{'id': 'cmpl-6hWaGfaVNwl324kLoB9QCjYVtYne5', 'object': 'text_completion', 'created': 1675831376, 'model': 'text-davinci-003', 'choices': [{'text': '\n\nAnswer: Increase (I-N-C-R-E-A-S-E)', 'index': 0, 'logprobs': None, 'finish_reason': 'stop'}], 'usage': {'prompt_tokens': 12, 'completion_tokens': 22, 'total_tokens': 34}}, 200]	34	23	Answer: Increase (I-N-C-R-E-A-S-E)	12	Answer: Increase (in + crease)
+What’s something that has a lot of holes in it but can still hold water?	"[<OpenAIObject text_completion id=cmpl-6hWXiL0OkHzN3gaJNGq90BsEjoPyG at 0x2218bea9860> JSON: {
+  ""choices"": [
+    {
+      ""finish_reason"": ""stop"",
+      ""index"": 0,
+      ""logprobs"": null,
+      ""text"": ""\n\nA sponge.""
+    }
+  ],
+  ""created"": 1675831218,
+  ""id"": ""cmpl-6hWXiL0OkHzN3gaJNGq90BsEjoPyG"",
+  ""model"": ""text-davinci-003"",
+  ""object"": ""text_completion"",
+  ""usage"": {
+    ""completion_tokens"": 5,
+    ""prompt_tokens"": 19,
+    ""total_tokens"": 24
+  }
+}, 200, 0.75227]"	[{'id': 'cmpl-6hWaIVRmxwZGLtPD1Dd4S3npwr0BQ', 'object': 'text_completion', 'created': 1675831378, 'model': 'text-davinci-003', 'choices': [{'text': '\n\nA sponge.', 'index': 0, 'logprobs': None, 'finish_reason': 'stop'}], 'usage': {'prompt_tokens': 19, 'completion_tokens': 5, 'total_tokens': 24}}, 200]	24	24	A sponge.	19	A sponge.
+Two is a duo, and three is a trio. So what do four and five make?	"[<OpenAIObject text_completion id=cmpl-6hWXi1bVh3Nht1bEpMWNCr6miDPKu at 0x2218bea9360> JSON: {
+  ""choices"": [
+    {
+      ""finish_reason"": ""stop"",
+      ""index"": 0,
+      ""logprobs"": null,
+      ""text"": ""\n\nFour and five make a quartet and a quintet, respectively.""
+    }
+  ],
+  ""created"": 1675831218,
+  ""id"": ""cmpl-6hWXi1bVh3Nht1bEpMWNCr6miDPKu"",
+  ""model"": ""text-davinci-003"",
+  ""object"": ""text_completion"",
+  ""usage"": {
+    ""completion_tokens"": 16,
+    ""prompt_tokens"": 19,
+    ""total_tokens"": 35
+  }
+}, 200, 0.609659]"	[{'id': 'cmpl-6hWaKIq3JSLVdR02cFH6cqJeIOUcR', 'object': 'text_completion', 'created': 1675831380, 'model': 'text-davinci-003', 'choices': [{'text': '\n\nFour and five make a quartet and a quintet, respectively.', 'index': 0, 'logprobs': None, 'finish_reason': 'stop'}], 'usage': {'prompt_tokens': 19, 'completion_tokens': 16, 'total_tokens': 35}}, 200]	35	35	Four and five make a quartet and a quintet, respectively.	19	Four and five make a quartet and a quintet, respectively.
+Now, let’s see how many of these math riddles you can solve.	"[<OpenAIObject text_completion id=cmpl-6hWXjvEPTQcXS6tY9ybu4akFldghm at 0x2218bea94a0> JSON: {
+  ""choices"": [
+    {
+      ""finish_reason"": ""stop"",
+      ""index"": 0,
+      ""logprobs"": null,
+      ""text"": ""\n\n1. What is the answer to the equation 3 + 7?\n\nAnswer: 10""
+    }
+  ],
+  ""created"": 1675831219,
+  ""id"": ""cmpl-6hWXjvEPTQcXS6tY9ybu4akFldghm"",
+  ""model"": ""text-davinci-003"",
+  ""object"": ""text_completion"",
+  ""usage"": {
+    ""completion_tokens"": 20,
+    ""prompt_tokens"": 20,
+    ""total_tokens"": 40
+  }
+}, 200, 0.633829]"	[{'id': 'cmpl-6hWaMdaPZpAAb6TX36OQ34p5bJ5Na', 'object': 'text_completion', 'created': 1675831382, 'model': 'text-davinci-003', 'choices': [{'text': '\n\n1. What is the answer to 3 + 5?\nAnswer: 8', 'index': 0, 'logprobs': None, 'finish_reason': 'stop'}], 'usage': {'prompt_tokens': 20, 'completion_tokens': 17, 'total_tokens': 37}}, 200]	37	40	"1. What is the answer to 3 + 5?
+Answer: 8"	20	"1. What is the answer to the equation 3 + 7?
+
+Answer: 10"
+Which word in the dictionary has an odd spelling?	"[<OpenAIObject text_completion id=cmpl-6hWXk0Gb5pcnk4nqfQadS5QMb7cH3 at 0x2218dd3d180> JSON: {
+  ""choices"": [
+    {
+      ""finish_reason"": ""stop"",
+      ""index"": 0,
+      ""logprobs"": null,
+      ""text"": ""\n\nThe word \""onomatopoeia\"" has an odd spelling.""
+    }
+  ],
+  ""created"": 1675831220,
+  ""id"": ""cmpl-6hWXk0Gb5pcnk4nqfQadS5QMb7cH3"",
+  ""model"": ""text-davinci-003"",
+  ""object"": ""text_completion"",
+  ""usage"": {
+    ""completion_tokens"": 16,
+    ""prompt_tokens"": 10,
+    ""total_tokens"": 26
+  }
+}, 200, 0.903396]"	"[{'id': 'cmpl-6hWaOKyIzsynUvAm3kpVvP6AbJXDh', 'object': 'text_completion', 'created': 1675831384, 'model': 'text-davinci-003', 'choices': [{'text': '\n\nThe word ""onomatopoeia"" has an odd spelling.', 'index': 0, 'logprobs': None, 'finish_reason': 'stop'}], 'usage': {'prompt_tokens': 10, 'completion_tokens': 16, 'total_tokens': 26}}, 200]"	26	26	"The word ""onomatopoeia"" has an odd spelling."	10	"The word ""onomatopoeia"" has an odd spelling."
+What’s something you can break but can’t put back together?	"[<OpenAIObject text_completion id=cmpl-6hWXk6NLoa5vOFxXeOSefG3ssCG6p at 0x2218dd3d540> JSON: {
+  ""choices"": [
+    {
+      ""finish_reason"": ""stop"",
+      ""index"": 0,
+      ""logprobs"": null,
+      ""text"": ""\n\nAn egg.""
+    }
+  ],
+  ""created"": 1675831220,
+  ""id"": ""cmpl-6hWXk6NLoa5vOFxXeOSefG3ssCG6p"",
+  ""model"": ""text-davinci-003"",
+  ""object"": ""text_completion"",
+  ""usage"": {
+    ""completion_tokens"": 5,
+    ""prompt_tokens"": 17,
+    ""total_tokens"": 22
+  }
+}, 200, 0.409233]"	[{'id': 'cmpl-6hWaQcAqQmgrSxzsQMYQrmIv0WR4b', 'object': 'text_completion', 'created': 1675831386, 'model': 'text-davinci-003', 'choices': [{'text': '\n\nAn egg.', 'index': 0, 'logprobs': None, 'finish_reason': 'stop'}], 'usage': {'prompt_tokens': 17, 'completion_tokens': 5, 'total_tokens': 22}}, 200]	22	22	An egg.	17	An egg.
+How many times can you cut a cake in half?	"[<OpenAIObject text_completion id=cmpl-6hWXlcwH7W7RxRmgtNWPJZdqsiAzn at 0x2218dd3d950> JSON: {
+  ""choices"": [
+    {
+      ""finish_reason"": ""stop"",
+      ""index"": 0,
+      ""logprobs"": null,
+      ""text"": ""\n\nYou can cut a cake in half as many times as you want.""
+    }
+  ],
+  ""created"": 1675831221,
+  ""id"": ""cmpl-6hWXlcwH7W7RxRmgtNWPJZdqsiAzn"",
+  ""model"": ""text-davinci-003"",
+  ""object"": ""text_completion"",
+  ""usage"": {
+    ""completion_tokens"": 16,
+    ""prompt_tokens"": 11,
+    ""total_tokens"": 27
+  }
+}, 200, 0.925342]"	[{'id': 'cmpl-6hWaRS4WscM0ETAPm6lvavCaynORN', 'object': 'text_completion', 'created': 1675831387, 'model': 'text-davinci-003', 'choices': [{'text': '\n\nYou can cut a cake in half as many times as you like.', 'index': 0, 'logprobs': None, 'finish_reason': 'stop'}], 'usage': {'prompt_tokens': 11, 'completion_tokens': 16, 'total_tokens': 27}}, 200]	27	27	You can cut a cake in half as many times as you like.	11	You can cut a cake in half as many times as you want.
+What’s something that gets warmer the more it cools?	"[<OpenAIObject text_completion id=cmpl-6hWXmYKOBXjfyHqh8ZwImkVakKnuV at 0x2218dd3d8b0> JSON: {
+  ""choices"": [
+    {
+      ""finish_reason"": ""stop"",
+      ""index"": 0,
+      ""logprobs"": null,
+      ""text"": ""\n\nSteel. Steel becomes more malleable and easier to shape as it cools.""
+    }
+  ],
+  ""created"": 1675831222,
+  ""id"": ""cmpl-6hWXmYKOBXjfyHqh8ZwImkVakKnuV"",
+  ""model"": ""text-davinci-003"",
+  ""object"": ""text_completion"",
+  ""usage"": {
+    ""completion_tokens"": 19,
+    ""prompt_tokens"": 14,
+    ""total_tokens"": 33
+  }
+}, 200, 0.709763]"	[{'id': 'cmpl-6hWaUNYyIF0Rklf6yDlkSveYuICTI', 'object': 'text_completion', 'created': 1675831390, 'model': 'text-davinci-003', 'choices': [{'text': '\n\nA fire.', 'index': 0, 'logprobs': None, 'finish_reason': 'stop'}], 'usage': {'prompt_tokens': 14, 'completion_tokens': 5, 'total_tokens': 19}}, 200]	19	33	A fire.	14	Steel. Steel becomes more malleable and easier to shape as it cools.
+What are two things you can’t eat for dinner?	"[<OpenAIObject text_completion id=cmpl-6hWXnAsaqG2v1nBt7GdiLZvzpABgX at 0x2218dd3dcc0> JSON: {
+  ""choices"": [
+    {
+      ""finish_reason"": ""stop"",
+      ""index"": 0,
+      ""logprobs"": null,
+      ""text"": ""\n\nBreakfast cereal and ice cream.""
+    }
+  ],
+  ""created"": 1675831223,
+  ""id"": ""cmpl-6hWXnAsaqG2v1nBt7GdiLZvzpABgX"",
+  ""model"": ""text-davinci-003"",
+  ""object"": ""text_completion"",
+  ""usage"": {
+    ""completion_tokens"": 9,
+    ""prompt_tokens"": 13,
+    ""total_tokens"": 22
+  }
+}, 200, 0.511158]"	[{'id': 'cmpl-6hWaVL5GajTkdFqHGnH8CVOxHBpzT', 'object': 'text_completion', 'created': 1675831391, 'model': 'text-davinci-003', 'choices': [{'text': '\n\n1. Breakfast food \n2. Lunch food', 'index': 0, 'logprobs': None, 'finish_reason': 'stop'}], 'usage': {'prompt_tokens': 13, 'completion_tokens': 12, 'total_tokens': 25}}, 200]	25	22	"1. Breakfast food 
+2. Lunch food"	13	Breakfast cereal and ice cream.
+What’s something you can you hold without touching it?	"[<OpenAIObject text_completion id=cmpl-6hWXn2pLPw07ffAEu4aqNS6Z9Il8z at 0x2218dd1f180> JSON: {
+  ""choices"": [
+    {
+      ""finish_reason"": ""stop"",
+      ""index"": 0,
+      ""logprobs"": null,
+      ""text"": ""\n\nA thought.""
+    }
+  ],
+  ""created"": 1675831223,
+  ""id"": ""cmpl-6hWXn2pLPw07ffAEu4aqNS6Z9Il8z"",
+  ""model"": ""text-davinci-003"",
+  ""object"": ""text_completion"",
+  ""usage"": {
+    ""completion_tokens"": 5,
+    ""prompt_tokens"": 13,
+    ""total_tokens"": 18
+  }
+}, 200, 0.367581]"	[{'id': 'cmpl-6hWaWiLhTABG3WhrTObMTkQ2WUnjf', 'object': 'text_completion', 'created': 1675831392, 'model': 'text-davinci-003', 'choices': [{'text': '\n\nA thought.', 'index': 0, 'logprobs': None, 'finish_reason': 'stop'}], 'usage': {'prompt_tokens': 13, 'completion_tokens': 5, 'total_tokens': 18}}, 200]	18	18	A thought.	13	A thought.
+Let’s say you have to lift a hippo with one finger. How would you do it?	"[<OpenAIObject text_completion id=cmpl-6hWXnSbaU5JSsXG4FvRHm6DTbpQ3O at 0x2218dd1f310> JSON: {
+  ""choices"": [
+    {
+      ""finish_reason"": ""stop"",
+      ""index"": 0,
+      ""logprobs"": null,
+      ""text"": ""\n\nI would use a lever and fulcrum to lift the hippo with one finger. I would place the fulcrum under the hippo, and then place my finger on the other end of the lever. When I push down on the lever with my finger, the hippo would be lifted.""
+    }
+  ],
+  ""created"": 1675831223,
+  ""id"": ""cmpl-6hWXnSbaU5JSsXG4FvRHm6DTbpQ3O"",
+  ""model"": ""text-davinci-003"",
+  ""object"": ""text_completion"",
+  ""usage"": {
+    ""completion_tokens"": 63,
+    ""prompt_tokens"": 22,
+    ""total_tokens"": 85
+  }
+}, 200, 1.573171]"	[{'id': 'cmpl-6hWaXdFMvW4W9k89zVQwpYWgVEuF1', 'object': 'text_completion', 'created': 1675831393, 'model': 'text-davinci-003', 'choices': [{'text': '\n\nThe most efficient way to lift a hippo with one finger would be to use a crane or a hoist. This would allow you to use your finger to operate the crane or hoist, while the machinery does the heavy lifting.', 'index': 0, 'logprobs': None, 'finish_reason': 'stop'}], 'usage': {'prompt_tokens': 22, 'completion_tokens': 49, 'total_tokens': 71}}, 200]	71	85	The most efficient way to lift a hippo with one finger would be to use a crane or a hoist. This would allow you to use your finger to operate the crane or hoist, while the machinery does the heavy lifting.	22	I would use a lever and fulcrum to lift the hippo with one finger. I would place the fulcrum under the hippo, and then place my finger on the other end of the lever. When I push down on the lever with my finger, the hippo would be lifted.
+You wouldn’t because you can’t find a one-fingered hippo	"[<OpenAIObject text_completion id=cmpl-6hWXp78uSjsalqnFdLtWLtMuWSGDR at 0x2218dd1f4a0> JSON: {
+  ""choices"": [
+    {
+      ""finish_reason"": ""stop"",
+      ""index"": 0,
+      ""logprobs"": null,
+      ""text"": "". Hippos have four fingers and four toes on each foot, so it is impossible to find a one-fingered hippo.""
+    }
+  ],
+  ""created"": 1675831225,
+  ""id"": ""cmpl-6hWXp78uSjsalqnFdLtWLtMuWSGDR"",
+  ""model"": ""text-davinci-003"",
+  ""object"": ""text_completion"",
+  ""usage"": {
+    ""completion_tokens"": 27,
+    ""prompt_tokens"": 19,
+    ""total_tokens"": 46
+  }
+}, 200, 1.655268]"	[{'id': 'cmpl-6hWabgM7CLDlfRmLBVbh4zbnbVSTa', 'object': 'text_completion', 'created': 1675831397, 'model': 'text-davinci-003', 'choices': [{'text': '. Hippos are large, four-legged mammals with two eyes, two ears, a snout, and two hands with four fingers each.', 'index': 0, 'logprobs': None, 'finish_reason': 'stop'}], 'usage': {'prompt_tokens': 19, 'completion_tokens': 29, 'total_tokens': 48}}, 200]	48	46	. Hippos are large, four-legged mammals with two eyes, two ears, a snout, and two hands with four fingers each.	19	. Hippos have four fingers and four toes on each foot, so it is impossible to find a one-fingered hippo.
+What’s something that has a lot of problems not many people are eager to solve?	"[<OpenAIObject text_completion id=cmpl-6hWXrcHiNdcSEcmpYR2hFl4NJqKCH at 0x2218dd1f720> JSON: {
+  ""choices"": [
+    {
+      ""finish_reason"": ""stop"",
+      ""index"": 0,
+      ""logprobs"": null,
+      ""text"": ""\n\nGlobal poverty.""
+    }
+  ],
+  ""created"": 1675831227,
+  ""id"": ""cmpl-6hWXrcHiNdcSEcmpYR2hFl4NJqKCH"",
+  ""model"": ""text-davinci-003"",
+  ""object"": ""text_completion"",
+  ""usage"": {
+    ""completion_tokens"": 5,
+    ""prompt_tokens"": 19,
+    ""total_tokens"": 24
+  }
+}, 200, 0.319395]"	"[{'id': 'cmpl-6hWafj756mnSEp745u9u8uZOCdl76', 'object': 'text_completion', 'created': 1675831401, 'model': 'text-davinci-003', 'choices': [{'text': ""\n\nPoverty. Despite many people's best efforts, poverty is still a huge issue in many parts of the world. It is a complex problem that requires multiple solutions, and it is not an easy one to solve."", 'index': 0, 'logprobs': None, 'finish_reason': 'stop'}], 'usage': {'prompt_tokens': 19, 'completion_tokens': 45, 'total_tokens': 64}}, 200]"	64	24	Poverty. Despite many people's best efforts, poverty is still a huge issue in many parts of the world. It is a complex problem that requires multiple solutions, and it is not an easy one to solve.	19	Global poverty.
+If you were in a race and passed the person in third place, what place would you be in?	"[<OpenAIObject text_completion id=cmpl-6hWXrYrgPEQZiQ5DJOkqN64HFL8zI at 0x2218dd1f9a0> JSON: {
+  ""choices"": [
+    {
+      ""finish_reason"": ""stop"",
+      ""index"": 0,
+      ""logprobs"": null,
+      ""text"": ""\n\nIf you passed the person in third place, you would be in fourth place.""
+    }
+  ],
+  ""created"": 1675831227,
+  ""id"": ""cmpl-6hWXrYrgPEQZiQ5DJOkqN64HFL8zI"",
+  ""model"": ""text-davinci-003"",
+  ""object"": ""text_completion"",
+  ""usage"": {
+    ""completion_tokens"": 18,
+    ""prompt_tokens"": 21,
+    ""total_tokens"": 39
+  }
+}, 200, 1.00608]"	[{'id': 'cmpl-6hWakW1VsPlfVUKnuuvrwWtZhaBwA', 'object': 'text_completion', 'created': 1675831406, 'model': 'text-davinci-003', 'choices': [{'text': '\n\nYou would be in second place.', 'index': 0, 'logprobs': None, 'finish_reason': 'stop'}], 'usage': {'prompt_tokens': 21, 'completion_tokens': 9, 'total_tokens': 30}}, 200]	30	39	You would be in second place.	21	If you passed the person in third place, you would be in fourth place.
+A woman goes into the forest and sees ten trees. She then proceeds to snap all their branches at once. How is this possible?	"[<OpenAIObject text_completion id=cmpl-6hWXs2Qo3hEWrNGv8dawLZtR7QPUL at 0x2218dd1fc20> JSON: {
+  ""choices"": [
+    {
+      ""finish_reason"": ""stop"",
+      ""index"": 0,
+      ""logprobs"": null,
+      ""text"": ""\n\nThis is not possible. Breaking all the branches of ten trees at once would require an immense amount of force that a single person would not be able to generate.""
+    }
+  ],
+  ""created"": 1675831228,
+  ""id"": ""cmpl-6hWXs2Qo3hEWrNGv8dawLZtR7QPUL"",
+  ""model"": ""text-davinci-003"",
+  ""object"": ""text_completion"",
+  ""usage"": {
+    ""completion_tokens"": 34,
+    ""prompt_tokens"": 27,
+    ""total_tokens"": 61
+  }
+}, 200, 1.130436]"	[{'id': 'cmpl-6hWanACxmZoJsyYn3lCqvsepcVwDP', 'object': 'text_completion', 'created': 1675831409, 'model': 'text-davinci-003', 'choices': [{'text': '\n\nThis is not possible as it would require an impossible amount of strength.', 'index': 0, 'logprobs': None, 'finish_reason': 'stop'}], 'usage': {'prompt_tokens': 27, 'completion_tokens': 16, 'total_tokens': 43}}, 200]	43	61	This is not possible as it would require an impossible amount of strength.	27	This is not possible. Breaking all the branches of ten trees at once would require an immense amount of force that a single person would not be able to generate.
+She took a picture of the trees	"[<OpenAIObject text_completion id=cmpl-6hWXtqTnN0O7oey4FzG8lu9xyVILR at 0x2218db430e0> JSON: {
+  ""choices"": [
+    {
+      ""finish_reason"": ""stop"",
+      ""index"": 0,
+      ""logprobs"": null,
+      ""text"": ""\n\nYes, she can take a picture of the trees.""
+    }
+  ],
+  ""created"": 1675831229,
+  ""id"": ""cmpl-6hWXtqTnN0O7oey4FzG8lu9xyVILR"",
+  ""model"": ""text-davinci-003"",
+  ""object"": ""text_completion"",
+  ""usage"": {
+    ""completion_tokens"": 13,
+    ""prompt_tokens"": 7,
+    ""total_tokens"": 20
+  }
+}, 200, 0.519892]"	[{'id': 'cmpl-6hWap3S26pU43yg3On4Sc3thNeJAX', 'object': 'text_completion', 'created': 1675831411, 'model': 'text-davinci-003', 'choices': [{'text': '\n\nYes, she can take a picture of the trees.', 'index': 0, 'logprobs': None, 'finish_reason': 'stop'}], 'usage': {'prompt_tokens': 7, 'completion_tokens': 13, 'total_tokens': 20}}, 200]	20	20	Yes, she can take a picture of the trees.	7	Yes, she can take a picture of the trees.
+What was the president’s name in 1990?	"[<OpenAIObject text_completion id=cmpl-6hWXut8kvoUpmr2RwsZsEBzRHcqTB at 0x2218db43270> JSON: {
+  ""choices"": [
+    {
+      ""finish_reason"": ""stop"",
+      ""index"": 0,
+      ""logprobs"": null,
+      ""text"": ""\n\nIn 1990, the President of the United States was George H. W. Bush.""
+    }
+  ],
+  ""created"": 1675831230,
+  ""id"": ""cmpl-6hWXut8kvoUpmr2RwsZsEBzRHcqTB"",
+  ""model"": ""text-davinci-003"",
+  ""object"": ""text_completion"",
+  ""usage"": {
+    ""completion_tokens"": 19,
+    ""prompt_tokens"": 11,
+    ""total_tokens"": 30
+  }
+}, 200, 0.699516]"	[{'id': 'cmpl-6hWas8OVKreyiWS9uzgsv4fFXCyVD', 'object': 'text_completion', 'created': 1675831414, 'model': 'text-davinci-003', 'choices': [{'text': '\n\nIn 1990, the President of the United States was George H. W. Bush.', 'index': 0, 'logprobs': None, 'finish_reason': 'stop'}], 'usage': {'prompt_tokens': 11, 'completion_tokens': 19, 'total_tokens': 30}}, 200]	30	30	In 1990, the President of the United States was George H. W. Bush.	11	In 1990, the President of the United States was George H. W. Bush.
+What has a spine but no bones?	"[<OpenAIObject text_completion id=cmpl-6hWXujhwiZjTok0Eaqsz4GQeEALnV at 0x2218db43450> JSON: {
+  ""choices"": [
+    {
+      ""finish_reason"": ""stop"",
+      ""index"": 0,
+      ""logprobs"": null,
+      ""text"": ""\n\nA book.""
+    }
+  ],
+  ""created"": 1675831230,
+  ""id"": ""cmpl-6hWXujhwiZjTok0Eaqsz4GQeEALnV"",
+  ""model"": ""text-davinci-003"",
+  ""object"": ""text_completion"",
+  ""usage"": {
+    ""completion_tokens"": 5,
+    ""prompt_tokens"": 8,
+    ""total_tokens"": 13
+  }
+}, 200, 0.422042]"	[{'id': 'cmpl-6hWauPfhOgW4e6pTQ6zZt0SAyZnvF', 'object': 'text_completion', 'created': 1675831416, 'model': 'text-davinci-003', 'choices': [{'text': '\n\nA book.', 'index': 0, 'logprobs': None, 'finish_reason': 'stop'}], 'usage': {'prompt_tokens': 8, 'completion_tokens': 5, 'total_tokens': 13}}, 200]	13	13	A book.	8	A book.
+Every single person at a restaurant got sick, except for two people who were completely fine. How is that possible?	"[<OpenAIObject text_completion id=cmpl-6hWXvCNEfxGy9biiL68OLBME5dfum at 0x2218db436d0> JSON: {
+  ""choices"": [
+    {
+      ""finish_reason"": ""stop"",
+      ""index"": 0,
+      ""logprobs"": null,
+      ""text"": ""\n\nIt is possible that the two people who were completely fine had immunity to the illness that caused the other people to get sick. Alternatively, the two people may have taken preventative measures, such as washing their hands or avoiding contact with contaminated surfaces, that protected them from getting sick.""
+    }
+  ],
+  ""created"": 1675831231,
+  ""id"": ""cmpl-6hWXvCNEfxGy9biiL68OLBME5dfum"",
+  ""model"": ""text-davinci-003"",
+  ""object"": ""text_completion"",
+  ""usage"": {
+    ""completion_tokens"": 58,
+    ""prompt_tokens"": 23,
+    ""total_tokens"": 81
+  }
+}, 200, 1.431579]"	[{'id': 'cmpl-6hWavqAOvbU4jYds6fQQT0oTWT4V7', 'object': 'text_completion', 'created': 1675831417, 'model': 'text-davinci-003', 'choices': [{'text': '\n\nIt is possible that the two people who were completely fine had immunity to the illness that made everyone else sick, or that they had taken preventative measures such as vaccinations or consuming certain foods or supplements.', 'index': 0, 'logprobs': None, 'finish_reason': 'stop'}], 'usage': {'prompt_tokens': 23, 'completion_tokens': 42, 'total_tokens': 65}}, 200]	65	81	It is possible that the two people who were completely fine had immunity to the illness that made everyone else sick, or that they had taken preventative measures such as vaccinations or consuming certain foods or supplements.	23	It is possible that the two people who were completely fine had immunity to the illness that caused the other people to get sick. Alternatively, the two people may have taken preventative measures, such as washing their hands or avoiding contact with contaminated surfaces, that protected them from getting sick.
+The two people were a couple and, therefore, not single	"[<OpenAIObject text_completion id=cmpl-6hWXwAmjJT03TbWxylW8SsuHg386M at 0x2218db43950> JSON: {
+  ""choices"": [
+    {
+      ""finish_reason"": ""stop"",
+      ""index"": 0,
+      ""logprobs"": null,
+      ""text"": "".""
+    }
+  ],
+  ""created"": 1675831232,
+  ""id"": ""cmpl-6hWXwAmjJT03TbWxylW8SsuHg386M"",
+  ""model"": ""text-davinci-003"",
+  ""object"": ""text_completion"",
+  ""usage"": {
+    ""completion_tokens"": 1,
+    ""prompt_tokens"": 12,
+    ""total_tokens"": 13
+  }
+}, 200, 0.613207]"	[{'id': 'cmpl-6hWb0eXh6uVDsVAQTmgZdvOf44e4m', 'object': 'text_completion', 'created': 1675831422, 'model': 'text-davinci-003', 'choices': [{'text': '.', 'index': 0, 'logprobs': None, 'finish_reason': 'stop'}], 'usage': {'prompt_tokens': 12, 'completion_tokens': 1, 'total_tokens': 13}}, 200]	13	13	.	12	.
+Want another challenge? Let’s see how many of these tongue twisters you can say without stumbling.	"[<OpenAIObject text_completion id=cmpl-6hWXxBgr0u0X8felkdWBl9RQobk2K at 0x2218db43bd0> JSON: {
+  ""choices"": [
+    {
+      ""finish_reason"": ""stop"",
+      ""index"": 0,
+      ""logprobs"": null,
+      ""text"": ""\n\n1. She sells seashells by the seashore.\n2. How much wood would a woodchuck chuck if a woodchuck could chuck wood?\n3. Round the rugged rocks the ragged rascal ran.\n4. Fuzzy Wuzzy was a bear, Fuzzy Wuzzy had no hair.\n5. Peter Piper picked a peck of pickled peppers.\n6. I saw Susie sitting in a shoe shine shop.\n7. Six thick thistle sticks.\n8. How can a clam cram in a clean cream can?""
+    }
+  ],
+  ""created"": 1675831233,
+  ""id"": ""cmpl-6hWXxBgr0u0X8felkdWBl9RQobk2K"",
+  ""model"": ""text-davinci-003"",
+  ""object"": ""text_completion"",
+  ""usage"": {
+    ""completion_tokens"": 124,
+    ""prompt_tokens"": 26,
+    ""total_tokens"": 150
+  }
+}, 200, 2.563995]"	[{'id': 'cmpl-6hWb1llN06YfWzuy9nm51drSoGVEP', 'object': 'text_completion', 'created': 1675831423, 'model': 'text-davinci-003', 'choices': [{'text': '\n\n1. She sells seashells by the seashore.\n2. How much wood would a woodchuck chuck if a woodchuck could chuck wood?\n3. Round the rugged rock the ragged rascal ran.\n4. Peter Piper picked a peck of pickled peppers.\n5. Six slimy snails sailed silently.\n6. Fuzzy Wuzzy was a bear, Fuzzy Wuzzy had no hair.', 'index': 0, 'logprobs': None, 'finish_reason': 'stop'}], 'usage': {'prompt_tokens': 26, 'completion_tokens': 98, 'total_tokens': 124}}, 200]	124	150	"1. She sells seashells by the seashore.
+2. How much wood would a woodchuck chuck if a woodchuck could chuck wood?
+3. Round the rugged rock the ragged rascal ran.
+4. Peter Piper picked a peck of pickled peppers.
+5. Six slimy snails sailed silently.
+6. Fuzzy Wuzzy was a bear, Fuzzy Wuzzy had no hair."	26	"1. She sells seashells by the seashore.
+2. How much wood would a woodchuck chuck if a woodchuck could chuck wood?
+3. Round the rugged rocks the ragged rascal ran.
+4. Fuzzy Wuzzy was a bear, Fuzzy Wuzzy had no hair.
+5. Peter Piper picked a peck of pickled peppers.
+6. I saw Susie sitting in a shoe shine shop.
+7. Six thick thistle sticks.
+8. How can a clam cram in a clean cream can?"
+What’s something that has a head and a tail but no paws?	"[<OpenAIObject text_completion id=cmpl-6hWXzHof8YbIQ3V6TMeP3wIFNUJRr at 0x2218d929090> JSON: {
+  ""choices"": [
+    {
+      ""finish_reason"": ""stop"",
+      ""index"": 0,
+      ""logprobs"": null,
+      ""text"": ""\n\nA coin.""
+    }
+  ],
+  ""created"": 1675831235,
+  ""id"": ""cmpl-6hWXzHof8YbIQ3V6TMeP3wIFNUJRr"",
+  ""model"": ""text-davinci-003"",
+  ""object"": ""text_completion"",
+  ""usage"": {
+    ""completion_tokens"": 5,
+    ""prompt_tokens"": 16,
+    ""total_tokens"": 21
+  }
+}, 200, 0.397435]"	[{'id': 'cmpl-6hWb6Z1gTTgbeIoCrqO5pN6lheT6s', 'object': 'text_completion', 'created': 1675831428, 'model': 'text-davinci-003', 'choices': [{'text': '\n\nA coin.', 'index': 0, 'logprobs': None, 'finish_reason': 'stop'}], 'usage': {'prompt_tokens': 16, 'completion_tokens': 5, 'total_tokens': 21}}, 200]	21	21	A coin.	16	A coin.
+Is it normal for someone to have all their toes on one foot?	"[<OpenAIObject text_completion id=cmpl-6hWY0h7IgweaWfzuwdxOSyP6vGySv at 0x2218d929130> JSON: {
+  ""choices"": [
+    {
+      ""finish_reason"": ""stop"",
+      ""index"": 0,
+      ""logprobs"": null,
+      ""text"": ""\n\nNo, it is not normal for someone to have all their toes on one foot. This could be a sign of a medical condition, such as a birth defect or an injury. It is important to speak to a doctor if you notice any unusual changes in your toes.""
+    }
+  ],
+  ""created"": 1675831236,
+  ""id"": ""cmpl-6hWY0h7IgweaWfzuwdxOSyP6vGySv"",
+  ""model"": ""text-davinci-003"",
+  ""object"": ""text_completion"",
+  ""usage"": {
+    ""completion_tokens"": 56,
+    ""prompt_tokens"": 14,
+    ""total_tokens"": 70
+  }
+}, 200, 2.258719]"	[{'id': 'cmpl-6hWb6SPqwCgNxQ8ujwvGal5k09pQL', 'object': 'text_completion', 'created': 1675831428, 'model': 'text-davinci-003', 'choices': [{'text': '\n\nNo, it is not normal for someone to have all their toes on one foot. This is a rare condition known as polydactyly, and it is usually caused by a genetic mutation.', 'index': 0, 'logprobs': None, 'finish_reason': 'stop'}], 'usage': {'prompt_tokens': 14, 'completion_tokens': 42, 'total_tokens': 56}}, 200]	56	70	No, it is not normal for someone to have all their toes on one foot. This is a rare condition known as polydactyly, and it is usually caused by a genetic mutation.	14	No, it is not normal for someone to have all their toes on one foot. This could be a sign of a medical condition, such as a birth defect or an injury. It is important to speak to a doctor if you notice any unusual changes in your toes.
+No, as people’s toes are on two feet, not one foot	"[<OpenAIObject text_completion id=cmpl-6hWY2H10sabeKKnyyI8lk9lyK5S4x at 0x2218d9293b0> JSON: {
+  ""choices"": [
+    {
+      ""finish_reason"": ""stop"",
+      ""index"": 0,
+      ""logprobs"": null,
+      ""text"": "".""
+    }
+  ],
+  ""created"": 1675831238,
+  ""id"": ""cmpl-6hWY2H10sabeKKnyyI8lk9lyK5S4x"",
+  ""model"": ""text-davinci-003"",
+  ""object"": ""text_completion"",
+  ""usage"": {
+    ""completion_tokens"": 1,
+    ""prompt_tokens"": 16,
+    ""total_tokens"": 17
+  }
+}, 200, 0.409531]"	[{'id': 'cmpl-6hWb9gyx1raRN5PsGHZh9VrmjJIaR', 'object': 'text_completion', 'created': 1675831431, 'model': 'text-davinci-003', 'choices': [{'text': '.', 'index': 0, 'logprobs': None, 'finish_reason': 'stop'}], 'usage': {'prompt_tokens': 16, 'completion_tokens': 1, 'total_tokens': 17}}, 200]	17	17	.	16	.
+Which word in the dictionary is always spelled incorrectly?	"[<OpenAIObject text_completion id=cmpl-6hWY28kqvcUQZQEBMMieShHm9RgBN at 0x2218d929630> JSON: {
+  ""choices"": [
+    {
+      ""finish_reason"": ""stop"",
+      ""index"": 0,
+      ""logprobs"": null,
+      ""text"": ""\n\nIncorrectly.""
+    }
+  ],
+  ""created"": 1675831238,
+  ""id"": ""cmpl-6hWY28kqvcUQZQEBMMieShHm9RgBN"",
+  ""model"": ""text-davinci-003"",
+  ""object"": ""text_completion"",
+  ""usage"": {
+    ""completion_tokens"": 6,
+    ""prompt_tokens"": 10,
+    ""total_tokens"": 16
+  }
+}, 200, 0.40747]"	[{'id': 'cmpl-6hWbAE1lJrd5QeHhC6YFWyPgaQkqw', 'object': 'text_completion', 'created': 1675831432, 'model': 'text-davinci-003', 'choices': [{'text': '\n\nIncorrectly.', 'index': 0, 'logprobs': None, 'finish_reason': 'stop'}], 'usage': {'prompt_tokens': 10, 'completion_tokens': 6, 'total_tokens': 16}}, 200]	16	16	Incorrectly.	10	Incorrectly.
+What’s something that always rises and never lowers?	"[<OpenAIObject text_completion id=cmpl-6hWY3iLxmjxZSn4eTXDaIEHwc7R5U at 0x2218d9298b0> JSON: {
+  ""choices"": [
+    {
+      ""finish_reason"": ""stop"",
+      ""index"": 0,
+      ""logprobs"": null,
+      ""text"": ""\n\nThe sun.""
+    }
+  ],
+  ""created"": 1675831239,
+  ""id"": ""cmpl-6hWY3iLxmjxZSn4eTXDaIEHwc7R5U"",
+  ""model"": ""text-davinci-003"",
+  ""object"": ""text_completion"",
+  ""usage"": {
+    ""completion_tokens"": 5,
+    ""prompt_tokens"": 12,
+    ""total_tokens"": 17
+  }
+}, 200, 0.418969]"	[{'id': 'cmpl-6hWbBDKHwl3ODmRhs9GRFkTiY9pVb', 'object': 'text_completion', 'created': 1675831433, 'model': 'text-davinci-003', 'choices': [{'text': '\n\nThe sun.', 'index': 0, 'logprobs': None, 'finish_reason': 'stop'}], 'usage': {'prompt_tokens': 12, 'completion_tokens': 5, 'total_tokens': 17}}, 200]	17	17	The sun.	12	The sun.
+What gets larger the more you take away from it?	"[<OpenAIObject text_completion id=cmpl-6hWY3rAlELZLWzNNcBh8leHKjIcDA at 0x2218d929d60> JSON: {
+  ""choices"": [
+    {
+      ""finish_reason"": ""stop"",
+      ""index"": 0,
+      ""logprobs"": null,
+      ""text"": ""\n\nA hole.""
+    }
+  ],
+  ""created"": 1675831239,
+  ""id"": ""cmpl-6hWY3rAlELZLWzNNcBh8leHKjIcDA"",
+  ""model"": ""text-davinci-003"",
+  ""object"": ""text_completion"",
+  ""usage"": {
+    ""completion_tokens"": 5,
+    ""prompt_tokens"": 11,
+    ""total_tokens"": 16
+  }
+}, 200, 1.531946]"	[{'id': 'cmpl-6hWbDCgS64XPU0JE7Jj9hfcH4l72y', 'object': 'text_completion', 'created': 1675831435, 'model': 'text-davinci-003', 'choices': [{'text': '\n\nA hole.', 'index': 0, 'logprobs': None, 'finish_reason': 'stop'}], 'usage': {'prompt_tokens': 11, 'completion_tokens': 5, 'total_tokens': 16}}, 200]	16	16	A hole.	11	A hole.
+What’s something that belongs to you, but others seem to use it more than you?	"[<OpenAIObject text_completion id=cmpl-6hWY5iJTEaIJ40bel5TaU3ZGPhBfX at 0x2218d929a40> JSON: {
+  ""choices"": [
+    {
+      ""finish_reason"": ""stop"",
+      ""index"": 0,
+      ""logprobs"": null,
+      ""text"": ""\n\nMy phone.""
+    }
+  ],
+  ""created"": 1675831241,
+  ""id"": ""cmpl-6hWY5iJTEaIJ40bel5TaU3ZGPhBfX"",
+  ""model"": ""text-davinci-003"",
+  ""object"": ""text_completion"",
+  ""usage"": {
+    ""completion_tokens"": 5,
+    ""prompt_tokens"": 20,
+    ""total_tokens"": 25
+  }
+}, 200, 0.407265]"	[{'id': 'cmpl-6hWbEqBMuDMqsMop5wNJccXoAuiPz', 'object': 'text_completion', 'created': 1675831436, 'model': 'text-davinci-003', 'choices': [{'text': '\n\nMy car.', 'index': 0, 'logprobs': None, 'finish_reason': 'stop'}], 'usage': {'prompt_tokens': 20, 'completion_tokens': 5, 'total_tokens': 25}}, 200]	25	25	My car.	20	My phone.
+A group of ten ostriches are in a field. If four of them take off flying, how many are left in the field?	"[<OpenAIObject text_completion id=cmpl-6hWY5xs1RumgQfqfSrNNcTLiUCLpu at 0x2218d794180> JSON: {
+  ""choices"": [
+    {
+      ""finish_reason"": ""stop"",
+      ""index"": 0,
+      ""logprobs"": null,
+      ""text"": ""\n\nSix ostriches are left in the field.""
+    }
+  ],
+  ""created"": 1675831241,
+  ""id"": ""cmpl-6hWY5xs1RumgQfqfSrNNcTLiUCLpu"",
+  ""model"": ""text-davinci-003"",
+  ""object"": ""text_completion"",
+  ""usage"": {
+    ""completion_tokens"": 12,
+    ""prompt_tokens"": 28,
+    ""total_tokens"": 40
+  }
+}, 200, 0.928422]"	[{'id': 'cmpl-6hWbFBcDpeZgo2H6f2w2xDUrhWOOm', 'object': 'text_completion', 'created': 1675831437, 'model': 'text-davinci-003', 'choices': [{'text': '\n\nSix ostriches are left in the field.', 'index': 0, 'logprobs': None, 'finish_reason': 'stop'}], 'usage': {'prompt_tokens': 28, 'completion_tokens': 12, 'total_tokens': 40}}, 200]	40	40	Six ostriches are left in the field.	28	Six ostriches are left in the field.
+How many sides does a house have?	"[<OpenAIObject text_completion id=cmpl-6hWY6Fn1qzNY00aYooJmAtE6DAQjD at 0x2218d794310> JSON: {
+  ""choices"": [
+    {
+      ""finish_reason"": ""stop"",
+      ""index"": 0,
+      ""logprobs"": null,
+      ""text"": ""\n\nA house typically has four sides.""
+    }
+  ],
+  ""created"": 1675831242,
+  ""id"": ""cmpl-6hWY6Fn1qzNY00aYooJmAtE6DAQjD"",
+  ""model"": ""text-davinci-003"",
+  ""object"": ""text_completion"",
+  ""usage"": {
+    ""completion_tokens"": 9,
+    ""prompt_tokens"": 8,
+    ""total_tokens"": 17
+  }
+}, 200, 0.599337]"	[{'id': 'cmpl-6hWbGnWR3QUXy0Wbysf2E7Mo0atnG', 'object': 'text_completion', 'created': 1675831438, 'model': 'text-davinci-003', 'choices': [{'text': '\n\nA house typically has four sides, but it can have more depending on the shape of the house.', 'index': 0, 'logprobs': None, 'finish_reason': 'stop'}], 'usage': {'prompt_tokens': 8, 'completion_tokens': 22, 'total_tokens': 30}}, 200]	30	17	A house typically has four sides, but it can have more depending on the shape of the house.	8	A house typically has four sides.
